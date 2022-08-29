@@ -28,6 +28,23 @@ services:
     volumes:
       - ${MOUNT_POINT}/transmission:/data
       - /etc/localtime:/etc/localtime:ro
+      
+  transmission:
+    image: linuxserver/transmission
+    ports:
+      - "51413:51413"
+      - "51413:51413/udp"
+      - "9091:9091"
+    networks:
+      - plexnet
+    volumes:
+      - /watch:/watch
+      - /downloads:/downloads
+      - /config:/config
+      - /etc/localtime:/etc/localtime:ro
+    container_name: transmission
+    restart: always
+  
   radarr:
     image: linuxserver/radarr
     container_name: radarr
@@ -99,6 +116,26 @@ services:
     volumes:
       - ${MOUNT_POINT}/plex-config:/config
       - ${MOUNT_POINT}/plex:/data
+  plex:
+    image: linuxserver/plex
+    container_name: plex
+    environment:
+      - PUID=${USER_ID}
+      - PGID=${GROUP_ID}
+      - VERSION=docker
+      - UMASK_SET=022
+      - PLEX_CLAIM=claim-R99KGs8oDpm7zFZxmEiV
+    volumes:
+      - plex-config:/config
+      - series:/tv
+      - movies:/movies
+    ports:
+      - "32400:32400"
+      - "32400:32400/udp"
+      - "32469:32469"
+      - "32469:32469/udp"
+      - "1900:1900/udp"
+    restart: unless-stopped
 networks:
   plexnet:
     driver: bridge
