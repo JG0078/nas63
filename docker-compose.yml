@@ -1,0 +1,57 @@
+# to run: docker-compose run -d
+#
+# Create a .env file in the same folder as this file and change the variables.
+# MOUNT_POINT=/plex/
+# CONFIG=/plex/nas63/docker-config/
+# VPN_PROVIDER=changeme
+# VPN_CONFIG=changeme
+# VPN_USERNAME=changeme
+# VPN_PASSWORD=changeme
+#
+version: '3'
+services:
+  plex:
+    image: linuxserver/plex
+    container_name: plex
+    restart: always
+    ports:
+      - "32400:32400"
+      #- "1900:1900"
+      #- "3005:3005"
+      #- "5353:5353"
+      #- "8324:8324"
+      #- "32410:32410"
+      #- "32412:32412"
+      #- "32413:32413"
+      #- "32414:32414"
+      #- "32469:32469"
+    networks:
+      - plexnet
+    environment:
+      - PGID=1000
+      - PUID=1000
+      - TZ=Americas/Toronto
+    volumes:
+      - ${CONFIG}/plex-config:/config
+      - ${MOUNT_POINT}/plex:/data
+
+  transmission:
+    image: linuxserver/transmission
+    ports:
+      - "51413:51413"
+      - "51413:51413/udp"
+      - "9091:9091"
+    networks:
+      - plexnet
+    volumes:
+      - ${CONFIG}/transmission-config:/config
+      - ${MOUNT_POINT}/library/downloads:/downloads
+      - /etc/localtime:/etc/localtime:ro
+    container_name: transmission
+    restart: always
+    environment:
+      - PGID=1000
+      - PUID=1000
+      - TZ=Americas/Toronto
+
+
