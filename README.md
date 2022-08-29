@@ -23,5 +23,16 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 
 followed these steps: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Key-Setup-Config-Ubuntu-Linux
-one last change
+
+##This will allow for SSH access with GITHUB
+git remote set-url origin git@github.com:JG0078/nas63.git
+
+git push --set-upstream origin nas63_082822  (Specify the branch name)
+
+git diff ##Identifies all of the different files
+
+git add -A && git commit -m "changes from ubuntu"   ##Commits changes from ubuntu into Local Git Branch
+git push -u origin nas63_082822   ##Syncs changes to remote git repo online at github
+
+
 
