@@ -1,141 +1,24 @@
-# to run: docker-compose run
-#
-# Create a .env file in the same folder as this file and change the variables.
-# MOUNT_POINT=/tmp/
-# VPN_PROVIDER=changeme
-# VPN_CONFIG=changeme
-# VPN_USERNAME=changeme
-# VPN_PASSWORD=changeme
-#
-#
-version: "2"
+version: "3"
 
+# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
 services:
-  transmission:
-    image: haugene/transmission-openvpn
-    container_name: transmission-openvpn
-    restart: always
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    # For DHCP it is recommended to remove these ports and instead add: network_mode: "host"
     ports:
-      - "9091:9091"
-    networks:
-      - plexnet
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp" # Only required if you are using Pi-hole as your DHCP server
+      - "80:80/tcp"
     environment:
-      - OPENVPN_PROVIDER=${VPN_PROVIDER}
-      - OPENVPN_CONFIG=${VPN_CONFIG}
-      - OPENVPN_USERNAME=${VPN_USERNAME}
-      - OPENVPN_PASSWORD=${VPN_PASSWORD}
-      - OPENVPN_OPTS="--inactive 3600 --ping 10 --ping-exit 60"
+      TZ: 'America/Chicago'
+      # WEBPASSWORD: 'set a secure password here or it will be random'
+    # Volumes store your data between container upgrades
     volumes:
-      - ${MOUNT_POINT}/transmission:/data
-      - /etc/localtime:/etc/localtime:ro
-      
-  transmission:
-    image: linuxserver/transmission
-    ports:
-      - "51413:51413"
-      - "51413:51413/udp"
-      - "9091:9091"
-    networks:
-      - plexnet
-    volumes:
-      - /watch:/watch
-      - /downloads:/downloads
-      - /config:/config
-      - /etc/localtime:/etc/localtime:ro
-    container_name: transmission
-    restart: always
-  
-  radarr:
-    image: linuxserver/radarr
-    container_name: radarr
-    restart: always
-    ports:
-      - "7878:7878"
-    networks:
-      - plexnet
-    environment:
-      - PGID=1000
-      - PUID=1000
-      - TZ=Europe/London
-    volumes:
-      - ${MOUNT_POINT}/radarr-config:/config
-      - ${MOUNT_POINT}/transmission/completed:/downloads
-      - ${MOUNT_POINT}/plex/movies:/movies
-  sonarr:
-    image: linuxserver/sonarr
-    container_name: sonarr
-    restart: always
-    ports:
-      - "8989:8989"
-    networks:
-      - plexnet
-    environment:
-      - PGID=1000
-      - PUID=1000
-      - TZ=Europe/London
-    volumes:
-      - ${MOUNT_POINT}/sonarr/config:/config
-      - ${MOUNT_POINT}/plex/tv:/tv
-      - ${MOUNT_POINT}/transmission/completed:/downloads
-  jackett:
-    image: linuxserver/jackett
-    container_name: jackett
-    restart: always
-    networks:
-      - plexnet
-    environment:
-      - PGID=1000
-      - PUID=1000
-      - TZ=Europe/London
-    volumes:
-      - ${MOUNT_POINT}/jackett/config:/config
-      - ${MOUNT_POINT}/jackett/downloads:/downloads
-    ports:
-      - "9117:9117"
-  plex:
-    image: timhaak/plex
-    container_name: plex
-    restart: always
-    ports:
-      - "32400:32400"
-      - "1900:1900"
-      - "3005:3005"
-      - "5353:5353"
-      - "8324:8324"
-      - "32410:32410"
-      - "32412:32412"
-      - "32413:32413"
-      - "32414:32414"
-      - "32469:32469"
-    networks:
-      - plexnet
-    environment:
-      - PGID=1000
-      - PUID=1000
-      - TZ=Europe/London
-    volumes:
-      - ${MOUNT_POINT}/plex-config:/config
-      - ${MOUNT_POINT}/plex:/data
-  plex:
-    image: linuxserver/plex
-    container_name: plex
-    environment:
-      - PUID=${USER_ID}
-      - PGID=${GROUP_ID}
-      - VERSION=docker
-      - UMASK_SET=022
-      - PLEX_CLAIM=claim-R99KGs8oDpm7zFZxmEiV
-    volumes:
-      - plex-config:/config
-      - series:/tv
-      - movies:/movies
-    ports:
-      - "32400:32400"
-      - "32400:32400/udp"
-      - "32469:32469"
-      - "32469:32469/udp"
-      - "1900:1900/udp"
+      - './etc-pihole:/etc/pihole'
+      - './etc-dnsmasq.d:/etc/dnsmasq.d'
+    #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
+    cap_add:
+      - NET_ADMIN # Required if you are using Pi-hole as your DHCP server, else not needed
     restart: unless-stopped
-networks:
-  plexnet:
-    driver: bridge
