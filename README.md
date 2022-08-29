@@ -36,3 +36,11 @@ git push -u origin nas63_082822   ##Syncs changes to remote git repo online at g
 
 
 
+
+##After cloning Git Master Branch
+Create a new local branch on ubuntu
+git checkout -b nas63_branch1  (Set the branch name)
+git push -u origin <<NewBranchName>> 
+
+
+
