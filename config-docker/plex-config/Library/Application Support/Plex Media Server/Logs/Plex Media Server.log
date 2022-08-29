@@ -3702,3 +3702,20 @@ Aug 29, 2022 13:15:33.639 [0x7f072a5aab00] DEBUG - [com.plexapp.agents.localmedi
 Aug 29, 2022 13:15:33.640 [0x7f072a5aab00] DEBUG - PluginRepository::setStartState: 3, complete
 Aug 29, 2022 13:15:34.571 [0x7f0729c17b00] DEBUG - Stopping file watcher for com.plexapp.agents.lastfm
 Aug 29, 2022 13:15:35.651 [0x7f0729eabb00] DEBUG - Stopping file watcher for org.musicbrainz.agents.music
+Aug 29, 2022 13:16:53.085 [0x7f072a4a2b00] DEBUG - BPQ: [Starting] -> [Processing]
+Aug 29, 2022 13:16:53.086 [0x7f072a4a2b00] DEBUG - BPQ: creating new background playqueue
+Aug 29, 2022 13:16:53.087 [0x7f072a4a2b00] DEBUG - BPQ: generating queue items from 0 generator(s)
+Aug 29, 2022 13:16:53.087 [0x7f072a4a2b00] DEBUG - BPQ: generated 0 item(s) for queue
+Aug 29, 2022 13:16:53.088 [0x7f072a4a2b00] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Aug 29, 2022 13:16:53.088 [0x7f072a4a2b00] DEBUG - PlayQueue: 0 generated IDs compressed down to a 20 byte blob.
+Aug 29, 2022 13:16:53.088 [0x7f072a4a2b00] DEBUG - BPQ: [Processing] -> [Idle]
+Aug 29, 2022 13:16:56.368 [0x7f072a1beb00] DEBUG - Request: [127.0.0.1:34890 (Loopback)] GET /servers (2 live) #135 GZIP Token ()
+Aug 29, 2022 13:16:56.369 [0x7f072a853b00] DEBUG - Completed: [127.0.0.1:34890] 200 GET /servers (2 live) GZIP 1ms 491 bytes
+Aug 29, 2022 13:16:56.375 [0x7f072a1beb00] DEBUG - Request: [127.0.0.1:34892 (Loopback)] GET /library/sections (2 live) #138 GZIP Token ()
+Aug 29, 2022 13:16:56.375 [0x7f072a853b00] DEBUG - Completed: [127.0.0.1:34892] 200 GET /library/sections (2 live) GZIP 0ms 403 bytes
+Aug 29, 2022 13:16:56.378 [0x7f072a1beb00] DEBUG - Request: [127.0.0.1:34894 (Loopback)] GET /channels/all (2 live) #13a GZIP Token ()
+Aug 29, 2022 13:16:56.378 [0x7f072a853b00] DEBUG - Completed: [127.0.0.1:34894] 200 GET /channels/all (2 live) GZIP 1ms 387 bytes
+Aug 29, 2022 13:16:56.385 [0x7f072a1beb00] DEBUG - Request: [127.0.0.1:34896 (Loopback)] GET /library/sections (2 live) #13c GZIP Token ()
+Aug 29, 2022 13:16:56.385 [0x7f072a853b00] DEBUG - Completed: [127.0.0.1:34896] 200 GET /library/sections (2 live) GZIP 0ms 403 bytes
+Aug 29, 2022 13:16:56.388 [0x7f072a1beb00] DEBUG - Request: [127.0.0.1:34898 (Loopback)] GET /channels/all (2 live) #13e GZIP Token ()
+Aug 29, 2022 13:16:56.389 [0x7f072a853b00] DEBUG - Completed: [127.0.0.1:34898] 200 GET /channels/all (2 live) GZIP 0ms 387 bytes

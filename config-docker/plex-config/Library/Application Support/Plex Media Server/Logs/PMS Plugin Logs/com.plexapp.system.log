@@ -786,3 +786,19 @@ HTTPError: HTTP Error 403: Forbidden
 2022-08-29 13:15:33,603 (7f640ee8db38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
 2022-08-29 13:15:33,604 (7f640ee8db38) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
 2022-08-29 13:15:34,256 (7f640eeb0b38) :  INFO (datakit:131) - Saved the dictionary file
+2022-08-29 13:16:56,364 (7f640ee63b38) :  DEBUG (runtime:1156) - Starting timed thread named 'refresh_servers'
+2022-08-29 13:16:56,365 (7f640ee63b38) :  DEBUG (peerservice:164) - Fetching the current list of servers
+2022-08-29 13:16:56,366 (7f640ee63b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/servers'
+2022-08-29 13:16:56,370 (7f640ee63b38) :  DEBUG (peerservice:171) - Refreshing local server
+2022-08-29 13:16:56,371 (7f640ee63b38) :  DEBUG (peerservice:189) - Updating servers (True/False True/True/True)
+2022-08-29 13:16:56,372 (7f640ee63b38) :  DEBUG (peerservice:198) - Found 1 servers
+2022-08-29 13:16:56,372 (7f640ee63b38) :  DEBUG (peerservice:233) - Updating existing server 56b0f91125c8 (ebfc78bd1410c6bb7f24289ded5214cf8c2107fd)
+2022-08-29 13:16:56,373 (7f640ee63b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/sections'
+2022-08-29 13:16:56,376 (7f640ee63b38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/channels/all'
+2022-08-29 13:16:56,380 (7f640f10ab38) :  DEBUG (peerservice:176) - Background-refreshing remote servers
+2022-08-29 13:16:56,380 (7f640ee63b38) :  DEBUG (runtime:1117) - Created a thread named 'background_refresh'
+2022-08-29 13:16:56,380 (7f640f10ab38) :  DEBUG (peerservice:189) - Updating servers (True/False True/True/True)
+2022-08-29 13:16:56,381 (7f640f10ab38) :  DEBUG (peerservice:198) - Found 1 servers
+2022-08-29 13:16:56,382 (7f640f10ab38) :  DEBUG (peerservice:233) - Updating existing server 56b0f91125c8 (ebfc78bd1410c6bb7f24289ded5214cf8c2107fd)
+2022-08-29 13:16:56,383 (7f640f10ab38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/sections'
+2022-08-29 13:16:56,387 (7f640f10ab38) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/channels/all'
