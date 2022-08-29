@@ -1,5 +1,6 @@
 This repo will help rebuild nas63 in the future if issues occur
 
+** when making future changes, if they are made directly to this repo in git, from ubuntu, sync those changes with: git pull origin master
 step by step instructions after ubuntu is installed and storage is orgranized.
 
 Root of library is /plex/library
