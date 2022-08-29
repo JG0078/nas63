@@ -1,4 +1,4 @@
-# to run: docker-compose run -d
+# to run: docker-compose up -d
 #
 # Create a .env file in the same folder as this file and change the variables.
 # MOUNT_POINT=/plex/
@@ -54,4 +54,6 @@ services:
       - PUID=1000
       - TZ=Americas/Toronto
 
-
+networks:
+  plexnet:
+    driver: bridge
