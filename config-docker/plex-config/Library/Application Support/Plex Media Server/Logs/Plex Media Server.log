@@ -3719,3 +3719,14 @@ Aug 29, 2022 13:16:56.385 [0x7f072a1beb00] DEBUG - Request: [127.0.0.1:34896 (Lo
 Aug 29, 2022 13:16:56.385 [0x7f072a853b00] DEBUG - Completed: [127.0.0.1:34896] 200 GET /library/sections (2 live) GZIP 0ms 403 bytes
 Aug 29, 2022 13:16:56.388 [0x7f072a1beb00] DEBUG - Request: [127.0.0.1:34898 (Loopback)] GET /channels/all (2 live) #13e GZIP Token ()
 Aug 29, 2022 13:16:56.389 [0x7f072a853b00] DEBUG - Completed: [127.0.0.1:34898] 200 GET /channels/all (2 live) GZIP 0ms 387 bytes
+Aug 29, 2022 13:44:53.086 [0x7f072a660b00] DEBUG - Sync: uploadStatus
+Aug 29, 2022 13:45:25.884 [0x7f0729eceb00] DEBUG - Putting plug-in com.plexapp.agents.thetvdb to sleep.
+Aug 29, 2022 13:45:25.884 [0x7f0729eceb00] DEBUG - Stopping [com.plexapp.agents.thetvdb].
+Aug 29, 2022 13:45:25.884 [0x7f0729eceb00] DEBUG - [com.plexapp.agents.thetvdb] Killing.
+Aug 29, 2022 13:45:25.891 [0x7f072b101b00] WARN - JobManager: Could not find job for handle 247
+Aug 29, 2022 13:45:35.886 [0x7f0729eceb00] DEBUG - Stopping file watcher for com.plexapp.agents.thetvdb
+Aug 29, 2022 13:45:40.039 [0x7f0729ce9b00] DEBUG - Putting plug-in com.plexapp.agents.imdb to sleep.
+Aug 29, 2022 13:45:40.039 [0x7f0729ce9b00] DEBUG - Stopping [com.plexapp.agents.imdb].
+Aug 29, 2022 13:45:40.039 [0x7f0729ce9b00] DEBUG - [com.plexapp.agents.imdb] Killing.
+Aug 29, 2022 13:45:40.045 [0x7f072b101b00] WARN - JobManager: Could not find job for handle 648
+Aug 29, 2022 13:45:50.041 [0x7f0729ce9b00] DEBUG - Stopping file watcher for com.plexapp.agents.imdb

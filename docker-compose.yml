@@ -36,7 +36,8 @@ services:
       - ${MOUNT_POINT}/plex:/data
 
   transmission:
-    image: linuxserver/transmission
+    #image: linuxserver/transmission
+    image: lscr.io/linuxserver/transmission:latest
     ports:
       - "51413:51413"
       - "51413:51413/udp"
@@ -54,6 +55,8 @@ services:
       - PUID=1000
       - TZ=Americas/Toronto
       #- TRANSMISSION_WEB_HOME=/combustion-release/ #optional
+      #- TRANSMISSION_WEB_HOME=/combustion-release/ #optional. I left the default. Possible UIs are:
+        # /combustion-release/, /transmission-web-control/, /kettu/, /flood-for-transmission/, /transmissionic/
       #- USER=username #optional
       #- PASS=password #optional
       #- WHITELIST=iplist #optional
