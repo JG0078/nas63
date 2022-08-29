@@ -47,6 +47,9 @@ services:
     volumes:
       - ${CONFIG}/transmission-config:/config
       - ${MOUNT_POINT}/library/downloads:/downloads
+      - ${MOUNT_POINT}/library/movies:/movies
+      - ${MOUNT_POINT}/library/tv:/tv
+      - ${MOUNT_POINT}/library/kidsmovies:/kidsmovies
       - /etc/localtime:/etc/localtime:ro
     container_name: transmission
     restart: always
