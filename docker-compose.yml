@@ -35,37 +35,6 @@ services:
       - ${CONFIG}/plex-config:/config
       - ${MOUNT_POINT}/plex:/data
 
-  transmission:
-    #image: linuxserver/transmission
-    image: lscr.io/linuxserver/transmission:latest
-    ports:
-      - "51413:51413"
-      - "51413:51413/udp"
-      - "9091:9091"
-    networks:
-      - plexnet
-    volumes:
-      - ${CONFIG}/transmission-config:/config
-      - ${MOUNT_POINT}/library/downloads:/downloads
-      - ${MOUNT_POINT}/library/movies:/movies
-      - ${MOUNT_POINT}/library/tv:/tv
-      - ${MOUNT_POINT}/library/kidsmovies:/kidsmovies
-      - /etc/localtime:/etc/localtime:ro
-    container_name: transmission
-    restart: always
-    environment:
-      - PGID=1000
-      - PUID=1000
-      - TZ=Americas/Toronto
-      #- TRANSMISSION_WEB_HOME=/combustion-release/ #optional
-      #- TRANSMISSION_WEB_HOME=/combustion-release/ #optional. I left the default. Possible UIs are:
-        # /combustion-release/, /transmission-web-control/, /kettu/, /flood-for-transmission/, /transmissionic/
-      #- USER=username #optional
-      #- PASS=password #optional
-      #- WHITELIST=iplist #optional
-      #- PEERPORT=peerport #optional
-      #- HOST_WHITELIST=dnsname list #optional
-
 networks:
   plexnet:
     driver: bridge

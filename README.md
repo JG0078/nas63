@@ -1,5 +1,5 @@
 This repo will help rebuild nas63 in the future if issues occur
-
+ 
 ** when making future changes, if they are made directly to this repo in git, from ubuntu, sync those changes with: git pull origin master
 step by step instructions after ubuntu is installed and storage is orgranized.
 
@@ -43,4 +43,16 @@ git checkout -b nas63_branch1  (Set the branch name)
 git push -u origin <<NewBranchName>> 
 
 
+
+
+Installing Transmission:
+- CAn't figure out install via docker at this time.
+- Install manually 3.0 to ubunut 20
+
+1. sudo apt update
+2. sudo apt upgrade
+3. sudo add-apt-repository ppa:transmissionbt/ppa
+4. sudo apt update
+5. sudo apt install transmission
+6. transmission-gtk --version
 
