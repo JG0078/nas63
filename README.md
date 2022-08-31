@@ -43,6 +43,7 @@ git checkout -b nas63_branch1  (Set the branch name)
 git push -u origin <<NewBranchName>> 
 
 
+<<<<<<< HEAD
 
 
 Installing Transmission:
@@ -56,3 +57,23 @@ Installing Transmission:
 5. sudo apt install transmission
 6. transmission-gtk --version
 
+=======
+Transmission:
+ # Having trouble with the settings of transmission if its running in a docker file.
+Manually using Tranmission Install on Ubuntu 20.04
+1. sudo apt-get update
+2. sudo apt-get install transmission-cli transmission-common transmission-daemon
+3. sudo usermod -a -G debian-transmission grubb
+
+## Performing Install
+  
+## Adding Aliases to ~/.bashrc
+alias tstop='sudo service transmission-daemon stop'
+alias tstart='sudo service transmission-daemon start'
+alias trestart='sudo service transmission-daemon reload'
+alias tstatus='sudo service transmission-daemon status'
+alias tsettings='sudo nano /etc/transmission-daemon/settings.json'
+
+
+  
+>>>>>>> dad2e030d54a5d461d0cfb7b5c607eaf662b8971
