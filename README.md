@@ -77,3 +77,16 @@ alias tsettings='sudo nano /etc/transmission-daemon/settings.json'
 
   
 >>>>>>> dad2e030d54a5d461d0cfb7b5c607eaf662b8971
+
+
+Installing Plex
+ - Docker Issues:
+
+
+  531  curl https://downloads.plex.tv/plex-keys/PlexSign.key | sudo apt-key add -
+  532  echo deb https://downloads.plex.tv/repo/deb public main | sudo tee /etc/apt/sources.list.d/plexmediaserver.list
+  533  sudo apt update
+  534  sudo apt install plexmediaserver
+  535  sudo systemctl status plexmediaserver
+  536  history
+

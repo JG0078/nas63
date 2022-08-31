@@ -8,33 +8,60 @@
 # VPN_USERNAME=changeme
 # VPN_PASSWORD=changeme
 #
-version: '3'
-services:
-  plex:
-    image: linuxserver/plex
-    container_name: plex
-    restart: always
-    ports:
-      - "32400:32400"
-      #- "1900:1900"
-      #- "3005:3005"
-      #- "5353:5353"
-      #- "8324:8324"
-      #- "32410:32410"
-      #- "32412:32412"
-      #- "32413:32413"
-      #- "32414:32414"
-      #- "32469:32469"
-    networks:
-      - plexnet
-    environment:
-      - PGID=1000
-      - PUID=1000
-      - TZ=Americas/Toronto
-    volumes:
-      - ${CONFIG}/plex-config:/config
-      - ${MOUNT_POINT}/plex:/data
+# Grafana
+# ADMIN_USER=admin  
+# ADMIN_PASSWORD=admin
+#
 
-networks:
-  plexnet:
-    driver: bridge
+#version: '3'
+#services:
+#  plex:
+#    image: linuxserver/plex:latest
+#    container_name: plex
+#    restart: always
+#    ports:
+#      - "32400:32400"
+#      #- "1900:1900"
+#      #- "3005:3005"
+#      #- "5353:5353"
+#      #- "8324:8324"
+#      #- "32410:32410"
+#      #- "32412:32412"
+#      #- "32413:32413"
+#      #- "32414:32414"
+#      #- "32469:32469"
+##    networks:
+##      - plexnet
+#    environment:
+#      - PGID=1000
+#      - PUID=1000
+#      - TZ=Americas/Toronto
+#    volumes:
+#      - ${CONFIG}/plex-config:/config
+#      - ${MOUNT_POINT}/plex:/data
+
+
+
+#  grafana:
+#    image: grafana/grafana:6.7.2
+#    container_name: grafana
+#    volumes:
+#      - ${CONFIG}/grafana-config/data:/var/lib/grafana
+#      - ${CONFIG}/grafana-config/provisioning:/etc/grafana/provisioning
+#    environment:
+#      - GF_SECURITY_ADMIN_USER=${ADMIN_USER}
+#      - GF_SECURITY_ADMIN_PASSWORD=${ADMIN_PASSWORD}
+#      - GF_USERS_ALLOW_SIGN_UP=false
+#    restart: unless-stopped
+#    ports:
+#      - "3000:3000"
+#    #expose:
+#    #  - 3000
+#    #networks:
+#    #  - monitor-net
+#    labels:
+#      org.label-schema.group: "monitoring"
+
+#networks:
+#  plexnet:
+#    driver: bridge
