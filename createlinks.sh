@@ -1,4 +1,5 @@
 #!/bin/bash
+# This file can be setup in the cron to keep duplicates off of the system
 
 unlinkDup () {
   #  $1 -> Filename that we are searching for
