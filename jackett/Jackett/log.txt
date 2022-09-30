@@ -68,3 +68,61 @@
 2022-09-29 22:32:44.1907 Info Torznab search in IPTorrents => Found 50 releases 
 2022-09-29 22:41:30.2681 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
 2022-09-29 22:56:31.0661 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-29 23:11:32.5884 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-29 23:27:02.5458 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-29 23:32:45.5013 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-29 23:32:45.9364 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-29 23:42:02.8159 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-29 23:57:03.5787 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 00:12:33.5386 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 00:17:01.2112 Info Torznab search in IPTorrents for Chicago P D S10E02 => Found 0 releases 
+2022-09-30 00:17:03.0358 Info Torznab search in IPTorrents for Chicago Police Department S10E02 => Found 0 releases 
+2022-09-30 00:17:05.0311 Info Torznab search in IPTorrents for Chicago PD S10E02 => Found 6 releases 
+2022-09-30 00:27:34.5182 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 00:32:47.2533 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-30 00:32:47.6561 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 00:43:05.6171 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 00:58:35.8375 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 01:13:36.5704 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 01:28:37.5882 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 01:32:49.8324 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-30 01:32:50.1865 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 01:44:07.8594 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 01:59:08.8236 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 02:14:10.4479 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 02:29:40.7778 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 02:32:52.7839 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-30 02:32:53.2040 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 02:44:41.5254 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 02:59:42.6251 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 03:15:12.9056 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 03:30:13.5972 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 03:32:55.7254 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-30 03:32:56.1286 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 03:45:14.6229 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 04:00:44.8980 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 04:16:15.1780 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 04:31:45.8851 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 04:32:58.2578 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-30 04:32:58.6388 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 04:47:15.8078 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 05:02:16.1206 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 05:17:17.2148 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 05:32:47.5538 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 05:32:59.7892 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-30 05:33:00.2834 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 05:47:48.2169 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 06:02:49.2656 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 06:17:49.6325 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 06:32:50.2829 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 06:33:02.1408 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-30 06:33:02.5747 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 06:47:51.4925 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 07:03:21.4458 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 07:18:21.7706 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 07:33:04.9153 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-30 07:33:05.3005 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 07:33:22.4288 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 07:48:52.3843 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 08:03:52.8561 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 08:18:55.1042 Info Torznab search in IPTorrents => Found 50 releases 
