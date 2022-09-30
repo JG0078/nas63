@@ -1608,3 +1608,83 @@
 2022-09-30 08:27:24.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
 2022-09-30 08:28:54.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
 2022-09-30 08:30:25.1|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:31:55.1|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:33:25.2|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:34:24.9|Info|RssSyncService|Starting RSS Sync
+2022-09-30 08:34:25.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 08:34:25.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 08:34:55.1|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:36:25.2|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:37:55.4|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:39:25.4|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:40:55.5|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:42:25.5|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:43:55.6|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:45:25.7|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:46:55.7|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:48:25.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:49:25.6|Info|RssSyncService|Starting RSS Sync
+2022-09-30 08:49:25.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 08:49:25.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 08:49:55.8|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:51:26.0|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:52:55.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:54:26.1|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:55:56.1|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:57:26.2|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 08:58:56.3|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:00:26.6|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:01:56.6|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:03:26.7|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:04:26.4|Info|RssSyncService|Starting RSS Sync
+2022-09-30 09:04:26.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 09:04:27.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 09:04:56.8|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:05:40.5|Info|AddSeriesService|Adding Series [400248][CSI: Vegas] Path: [/tv/CSI - Vegas]
+2022-09-30 09:05:40.6|Info|RefreshSeriesService|Updating CSI: Vegas
+2022-09-30 09:05:40.7|Info|RefreshEpisodeService|Starting episode info refresh for: [400248][CSI: Vegas]
+2022-09-30 09:05:40.8|Info|RefreshEpisodeService|Finished episode refresh for series: [400248][CSI: Vegas].
+2022-09-30 09:05:40.8|Info|DiskScanService|Scanning CSI: Vegas
+2022-09-30 09:05:40.8|Info|MediaCoverService|Downloading Banner for [400248][CSI: Vegas] https://artworks.thetvdb.com/banners/v4/series/400248/banners/615b07c3f1099.jpg
+2022-09-30 09:05:40.8|Info|DiskScanService|Completed scanning disk for CSI: Vegas
+2022-09-30 09:05:40.8|Info|SeriesScannedHandler|[CSI: Vegas] was recently added, performing post-add actions
+2022-09-30 09:05:40.9|Warn|MediaCoverMapper|File /config/MediaCover/14/poster.jpg not found
+2022-09-30 09:05:40.9|Info|MediaCoverService|Downloading Poster for [400248][CSI: Vegas] https://artworks.thetvdb.com/banners/v4/series/400248/posters/6131260d0c13f.jpg
+2022-09-30 09:05:41.1|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 09:05:41.1|Info|MediaCoverService|Downloading Fanart for [400248][CSI: Vegas] https://artworks.thetvdb.com/banners/v4/series/400248/backgrounds/6131261e77669.jpg
+2022-09-30 09:05:41.3|Info|EpisodeSearchService|Performing search for 11 episodes
+2022-09-30 09:05:41.3|Info|ReleaseSearchService|Searching indexers for [CSI: Vegas : S01]. 1 active indexers
+2022-09-30 09:05:41.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 09:05:43.6|Info|DownloadService|Report sent to transmission. CSI Vegas S01E08 REPACK 720p HEVC x265-MeGusta
+2022-09-30 09:05:45.5|Info|DownloadService|Report sent to transmission. CSI Vegas S01E04 720p HEVC x265-MeGusta
+2022-09-30 09:05:46.0|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2022-09-30 09:05:47.5|Info|DownloadService|Report sent to transmission. CSI Vegas S01E05 720p HEVC x265-MeGusta
+2022-09-30 09:05:49.2|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:05:49.5|Info|DownloadService|Report sent to transmission. CSI Vegas S01E06 720p HDTV x264-SYNCOPY
+2022-09-30 09:05:51.5|Info|DownloadService|Report sent to transmission. CSI Vegas S01E07 720p HEVC x265-MeGusta
+2022-09-30 09:05:53.5|Info|DownloadService|Report sent to transmission. CSI Vegas S01E09 720p HDTV x264-SYNCOPY
+2022-09-30 09:05:54.8|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:05:55.7|Info|DownloadService|Report sent to transmission. CSI Vegas S01E10 720p HDTV x264-SYNCOPY
+2022-09-30 09:05:55.8|Info|ReleaseSearchService|Searching indexers for [CSI: Vegas : S02E01]. 1 active indexers
+2022-09-30 09:05:56.0|Info|DownloadDecisionMaker|Processing 6 releases
+2022-09-30 09:05:57.9|Info|DownloadService|Report sent to transmission. CSI Vegas S02E01 720p HDTV x264-SYNCOPY
+2022-09-30 09:05:58.0|Info|EpisodeSearchService|Completed search for 11 episodes. 8 reports downloaded.
+2022-09-30 09:06:01.0|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:07:26.7|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:08:56.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:09:03.4|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:10:26.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:10:33.1|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:11:57.0|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:12:03.1|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:13:27.1|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:13:33.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:13:56.1|Info|ReleaseSearchService|Searching indexers for [Chicago P.D. : S10E01]. 1 active indexers
+2022-09-30 09:14:00.3|Info|DownloadDecisionMaker|Processing 5 releases
+2022-09-30 09:14:00.6|Info|DownloadService|Report sent to transmission. Chicago PD S10E01 1080p HEVC x265-MeGusta
+2022-09-30 09:14:00.6|Info|EpisodeSearchService|Episode search completed. 1 reports downloaded.
+2022-09-30 09:14:01.4|Info|ReleaseSearchService|Searching indexers for [Chicago P.D. : S10E02]. 1 active indexers
+2022-09-30 09:14:06.0|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:14:06.4|Info|DownloadDecisionMaker|Processing 6 releases
+2022-09-30 09:14:06.4|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-09-30 09:15:26.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder

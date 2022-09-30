@@ -126,3 +126,16 @@
 2022-09-30 07:48:52.3843 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
 2022-09-30 08:03:52.8561 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
 2022-09-30 08:18:55.1042 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 08:33:07.7605 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
+2022-09-30 08:33:08.7952 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 08:34:25.0013 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 08:49:25.6913 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 09:04:26.8528 Info Torznab search in IPTorrents => Found 50 releases 
+2022-09-30 09:05:41.5490 Info Torznab search in IPTorrents for CSI Vegas S01 => Found 50 releases 
+2022-09-30 09:05:56.0184 Info Torznab search in IPTorrents for CSI Vegas S02E01 => Found 6 releases 
+2022-09-30 09:13:56.4441 Info Torznab search in IPTorrents for Chicago P D S10E01 => Found 0 releases 
+2022-09-30 09:13:58.2931 Info Torznab search in IPTorrents for Chicago Police Department S10E01 => Found 0 releases 
+2022-09-30 09:14:00.3238 Info Torznab search in IPTorrents for Chicago PD S10E01 => Found 5 releases 
+2022-09-30 09:14:02.3257 Info Torznab search in IPTorrents for Chicago P D S10E02 => Found 0 releases 
+2022-09-30 09:14:04.3330 Info Torznab search in IPTorrents for Chicago Police Department S10E02 => Found 0 releases 
+2022-09-30 09:14:06.2979 Info Torznab search in IPTorrents for Chicago PD S10E02 => Found 6 releases 
