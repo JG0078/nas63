@@ -1,0 +1,56 @@
+[
+  {
+    "id": "sitelink",
+    "type": "inputstring",
+    "name": "Site Link",
+    "value": "https://iptorrents.com/"
+  },
+  {
+    "id": "cookie",
+    "type": "inputstring",
+    "name": "Cookie",
+    "value": "cf_clearance=eZZppRMgJdiMQnqg8kj5Stbe5caDHQv9Gg_VatEJ7LA-1659534408-0-150; uid=1965382; pass=JqA4jQ7kUFt3rjOG69TDwFMT5zisRNlk"
+  },
+  {
+    "id": "user-agent",
+    "type": "inputstring",
+    "name": "User-Agent",
+    "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+  },
+  {
+    "id": "cookieheader",
+    "type": "hiddendata",
+    "name": "CookieHeader",
+    "value": "cf_clearance=eZZppRMgJdiMQnqg8kj5Stbe5caDHQv9Gg_VatEJ7LA-1659534408-0-150; uid=1965382; pass=JqA4jQ7kUFt3rjOG69TDwFMT5zisRNlk"
+  },
+  {
+    "id": "lasterror",
+    "type": "hiddendata",
+    "name": "LastError",
+    "value": null
+  },
+  {
+    "id": "sortrequestedfromsite",
+    "type": "inputselect",
+    "name": "Sort requested from site",
+    "value": "time",
+    "options": {
+      "time": "created",
+      "size": "size",
+      "seeders": "seeders",
+      "name": "title"
+    }
+  },
+  {
+    "id": "searchfreeleechonly",
+    "type": "inputbool",
+    "name": "Search freeleech only",
+    "value": false
+  },
+  {
+    "id": "tags",
+    "type": "inputtags",
+    "name": "Tags",
+    "value": ""
+  }
+]
