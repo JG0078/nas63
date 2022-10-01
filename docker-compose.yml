@@ -56,6 +56,46 @@ radarr:
     - ${ROOT}/library/movies:/movies # movies folder
     - ${ROOT}/library/downloads:/downloads # download folder
 
+#transmission:
+#  image: lscr.io/linuxserver/transmission
+#  container_name: transmission
+#  environment:
+#    - PUID=${PUID} # User id
+#    - PGID=${PGID} # Group id
+#    - TZ=${TZ} # Your current timezone
+#  volumes:
+#    - ${ROOT}/nas63/transmission:/config # Change this to your docker config folder
+#    - ${ROOT}/nas63/library/downloads:/downloads # Change this to your download folder
+#  ports:
+#    - 9091:9091 # Web UI port
+#    - 51413:51413 # Torrent port (TCP)
+#    - 51413:51413/udp # Torrent port (UDP)
+#  restart: unless-stopped # This makes sure that the application restarts when it crashes
+
+transmission:
+  image: lscr.io/linuxserver/transmission:latest
+  container_name: transmission
+  environment:
+    - PUID=${PUID}
+    - PGID=${PGID}
+    - TZ=${TZ}
+    #- TRANSMISSION_WEB_HOME=/combustion-release/ #optional
+    #- USER=username #optional
+    #- PASS=password #optional
+    - WHITELIST=*.*.*.* #optional
+    #- PEERPORT=peerport #optional
+    #- HOST_WHITELIST=dnsname list #optional
+  volumes:
+    - ${ROOT}/nas63/transmission/config:/config
+    - ${ROOT}/library/downloads:/downloads # Change this to your download folder
+    
+  ports:
+    - 9091:9091
+    - 51413:51413
+    - 51413:51413/udp
+  restart: unless-stopped
+
+
 #
 # Grafana
 # ADMIN_USER=admin  
