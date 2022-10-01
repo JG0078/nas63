@@ -1700,3 +1700,643 @@
 
 2022-09-30 09:17:00.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
 2022-09-30 09:17:08.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:17:14.2|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:18:27.2|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:19:56.9|Info|RssSyncService|Starting RSS Sync
+2022-09-30 09:19:57.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 09:19:57.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 09:19:57.8|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:21:27.8|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:22:59.3|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:23:04.6|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:24:27.9|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:25:58.3|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /plex/library/tv/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:26:38.4|Info|ReleaseSearchService|Searching indexers for [Chicago P.D. : S10E02]. 1 active indexers
+2022-09-30 09:26:42.5|Info|DownloadDecisionMaker|Processing 6 releases
+2022-09-30 09:26:47.2|Info|DownloadService|Report sent to transmission. Chicago PD S10E02 720p HEVC x265-MeGusta
+2022-09-30 09:26:52.6|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /downloads/Chicago.PD.S10E02.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 09:34:58.3|Info|RssSyncService|Starting RSS Sync
+2022-09-30 09:34:58.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 09:34:58.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 09:45:10.4|Info|ReleaseSearchService|Searching indexers for [CSI: Vegas : S02E01]. 1 active indexers
+2022-09-30 09:45:10.7|Info|DownloadDecisionMaker|Processing 6 releases
+2022-09-30 09:45:18.4|Info|DownloadService|Report sent to transmission. CSI Vegas S02E01 720p HDTV x264-SYNCOPY
+2022-09-30 09:49:58.9|Info|RssSyncService|Starting RSS Sync
+2022-09-30 09:49:59.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 09:49:59.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 09:50:10.6|Info|ReleaseSearchService|Searching indexers for [CSI: Vegas : S01E04]. 1 active indexers
+2022-09-30 09:50:10.8|Info|DownloadDecisionMaker|Processing 6 releases
+2022-09-30 09:50:10.9|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-09-30 09:53:11.0|Info|ReleaseSearchService|Searching indexers for [Chicago P.D. : S10E01]. 1 active indexers
+2022-09-30 09:53:15.3|Info|DownloadDecisionMaker|Processing 5 releases
+2022-09-30 09:53:15.3|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-09-30 09:53:16.3|Info|ReleaseSearchService|Searching indexers for [Chicago P.D. : S10E02]. 1 active indexers
+2022-09-30 09:53:21.2|Info|DownloadDecisionMaker|Processing 6 releases
+2022-09-30 09:53:21.3|Info|EpisodeSearchService|Episode search completed. 0 reports downloaded.
+2022-09-30 09:53:28.6|Info|ReleaseSearchService|Searching indexers for [Chicago P.D. : S10E01]. 1 active indexers
+2022-09-30 09:53:32.7|Info|DownloadDecisionMaker|Processing 5 releases
+2022-09-30 09:53:42.5|Info|DownloadService|Report sent to transmission. Chicago PD S10E01 720p HEVC x265-MeGusta
+2022-09-30 09:53:47.6|Info|ReleaseSearchService|Searching indexers for [Chicago P.D. : S10E02]. 1 active indexers
+2022-09-30 09:53:51.6|Info|DownloadDecisionMaker|Processing 6 releases
+2022-09-30 09:53:54.3|Info|DownloadService|Report sent to transmission. Chicago PD S10E02 720p HEVC x265-MeGusta
+2022-09-30 09:58:28.3|Info|AddSeriesService|Adding Series [269641][Chicago P.D.] Path: [/tv/Chicago.P.D]
+2022-09-30 09:58:28.4|Info|RefreshSeriesService|Updating Chicago P.D.
+2022-09-30 09:58:28.6|Info|RefreshEpisodeService|Starting episode info refresh for: [269641][Chicago P.D.]
+2022-09-30 09:58:28.7|Info|RefreshEpisodeService|Finished episode refresh for series: [269641][Chicago P.D.].
+2022-09-30 09:58:28.8|Info|MediaCoverService|Downloading Banner for [269641][Chicago P.D.] https://artworks.thetvdb.com/banners/graphical/269641-g7.jpg
+2022-09-30 09:58:28.8|Info|DiskScanService|Scanning Chicago P.D.
+2022-09-30 09:58:28.8|Info|DiskScanService|Completed scanning disk for Chicago P.D.
+2022-09-30 09:58:28.8|Info|SeriesScannedHandler|[Chicago P.D.] was recently added, performing post-add actions
+2022-09-30 09:58:28.9|Info|MediaCoverService|Downloading Poster for [269641][Chicago P.D.] https://artworks.thetvdb.com/banners/posters/269641-1.jpg
+2022-09-30 09:58:29.0|Info|MediaCoverService|Downloading Fanart for [269641][Chicago P.D.] https://artworks.thetvdb.com/banners/v4/series/269641/backgrounds/631cc1ef5d143.jpg
+2022-09-30 09:58:29.2|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 09:58:29.3|Info|EpisodeSearchService|Performing search for 2 episodes
+2022-09-30 09:58:29.3|Info|ReleaseSearchService|Searching indexers for [Chicago P.D. : S10]. 1 active indexers
+2022-09-30 09:58:33.6|Info|DownloadDecisionMaker|Processing 11 releases
+2022-09-30 09:58:34.0|Info|DownloadService|Report sent to transmission. Chicago PD S10E01 720p HEVC x265-MeGusta
+2022-09-30 09:58:34.1|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2022-09-30 09:58:36.0|Info|DownloadService|Report sent to transmission. Chicago PD S10E02 720p HDTV x264-SYNCOPY
+2022-09-30 09:58:36.2|Info|EpisodeSearchService|Completed search for 2 episodes. 2 reports downloaded.
+2022-09-30 09:58:39.4|Error|DownloadedEpisodesImportService|Import failed, path does not exist or is not accessible by Sonarr: /downloads/Chicago.PD.S10E01.720p.HEVC.x265-MeGusta. Ensure the path exists and the user running Sonarr has the correct permissions to access this file/folder
+2022-09-30 10:05:29.6|Info|RssSyncService|Starting RSS Sync
+2022-09-30 10:05:29.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 10:05:29.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 10:20:30.1|Info|RssSyncService|Starting RSS Sync
+2022-09-30 10:20:30.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 10:20:30.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 10:21:00.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 10:22:30.5|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 10:24:00.5|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 10:25:30.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 10:27:00.7|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 10:35:31.0|Info|RssSyncService|Starting RSS Sync
+2022-09-30 10:35:31.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 10:35:31.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 10:42:01.5|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 10:50:31.7|Info|RssSyncService|Starting RSS Sync
+2022-09-30 10:50:31.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 10:50:31.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 11:05:32.5|Info|RssSyncService|Starting RSS Sync
+2022-09-30 11:05:32.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 11:05:32.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 11:10:02.7|Info|SceneMappingService|Updating Scene mappings
+2022-09-30 11:12:02.8|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 11:20:32.9|Info|RssSyncService|Starting RSS Sync
+2022-09-30 11:20:33.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 11:20:33.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 11:36:03.1|Info|RssSyncService|Starting RSS Sync
+2022-09-30 11:36:03.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 11:36:03.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 11:51:03.4|Info|RssSyncService|Starting RSS Sync
+2022-09-30 11:51:03.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 11:51:03.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 12:06:03.8|Info|RssSyncService|Starting RSS Sync
+2022-09-30 12:06:04.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 12:06:04.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 12:12:04.0|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 12:21:34.3|Info|RssSyncService|Starting RSS Sync
+2022-09-30 12:21:34.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 12:21:34.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 12:37:04.4|Info|RssSyncService|Starting RSS Sync
+2022-09-30 12:37:04.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 12:37:04.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 12:52:04.6|Info|RssSyncService|Starting RSS Sync
+2022-09-30 12:52:05.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 12:52:05.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 13:07:35.1|Info|RssSyncService|Starting RSS Sync
+2022-09-30 13:07:35.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 13:07:35.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 13:22:36.3|Info|RssSyncService|Starting RSS Sync
+2022-09-30 13:22:36.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 13:22:36.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 13:37:37.0|Info|RssSyncService|Starting RSS Sync
+2022-09-30 13:37:37.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 13:37:37.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 13:52:37.8|Info|RssSyncService|Starting RSS Sync
+2022-09-30 13:52:37.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 13:52:37.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 14:07:38.7|Info|RssSyncService|Starting RSS Sync
+2022-09-30 14:07:39.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 14:07:39.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 14:10:09.0|Info|SceneMappingService|Updating Scene mappings
+2022-09-30 14:22:39.5|Info|RssSyncService|Starting RSS Sync
+2022-09-30 14:22:40.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 14:22:40.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 14:38:10.1|Info|RssSyncService|Starting RSS Sync
+2022-09-30 14:38:10.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 14:38:10.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 14:53:10.5|Info|RssSyncService|Starting RSS Sync
+2022-09-30 14:53:10.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 14:53:10.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 15:08:10.8|Info|RssSyncService|Starting RSS Sync
+2022-09-30 15:08:11.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 15:08:11.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 15:13:10.9|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 15:23:41.1|Info|RssSyncService|Starting RSS Sync
+2022-09-30 15:23:41.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 15:23:41.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 15:39:11.5|Info|RssSyncService|Starting RSS Sync
+2022-09-30 15:39:11.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 15:39:11.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 15:54:11.8|Info|RssSyncService|Starting RSS Sync
+2022-09-30 15:54:12.3|Warn|Torznab|Indexer IPTorrents rss sync didn't cover the period between 9/30/2022 7:02:23 PM and 9/30/2022 7:24:12 PM UTC. Search may be required.
+2022-09-30 15:54:12.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 15:54:12.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 16:09:42.0|Info|RssSyncService|Starting RSS Sync
+2022-09-30 16:09:42.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 16:09:42.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 16:24:42.3|Info|RssSyncService|Starting RSS Sync
+2022-09-30 16:24:42.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 16:24:42.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 16:39:42.7|Info|RssSyncService|Starting RSS Sync
+2022-09-30 16:39:43.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 16:39:43.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 16:55:13.1|Info|RssSyncService|Starting RSS Sync
+2022-09-30 16:55:13.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 16:55:13.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 17:10:13.5|Info|SceneMappingService|Updating Scene mappings
+2022-09-30 17:10:13.7|Info|RssSyncService|Starting RSS Sync
+2022-09-30 17:10:13.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 17:10:13.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 17:25:14.6|Info|RssSyncService|Starting RSS Sync
+2022-09-30 17:25:15.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 17:25:15.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 17:40:45.3|Info|RssSyncService|Starting RSS Sync
+2022-09-30 17:40:45.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 17:40:45.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 17:55:46.0|Info|RssSyncService|Starting RSS Sync
+2022-09-30 17:55:46.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 17:55:46.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 18:10:46.6|Info|RssSyncService|Starting RSS Sync
+2022-09-30 18:10:47.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 18:10:47.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 18:13:16.7|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 18:26:17.3|Info|RssSyncService|Starting RSS Sync
+2022-09-30 18:26:17.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 18:26:17.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 18:41:18.1|Info|RssSyncService|Starting RSS Sync
+2022-09-30 18:41:18.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 18:41:18.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 18:56:18.8|Info|RssSyncService|Starting RSS Sync
+2022-09-30 18:56:19.3|Warn|Torznab|Indexer IPTorrents rss sync didn't cover the period between 9/30/2022 10:10:22 PM and 9/30/2022 10:30:49 PM UTC. Search may be required.
+2022-09-30 18:56:19.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 18:56:19.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 19:11:49.9|Info|RssSyncService|Starting RSS Sync
+2022-09-30 19:11:50.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 19:11:50.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 19:27:20.2|Info|RssSyncService|Starting RSS Sync
+2022-09-30 19:27:20.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 19:27:20.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 19:42:21.0|Info|RssSyncService|Starting RSS Sync
+2022-09-30 19:42:21.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 19:42:21.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 19:57:51.7|Info|RssSyncService|Starting RSS Sync
+2022-09-30 19:57:51.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 19:57:51.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 20:09:52.4|Info|RefreshSeriesService|Updating 1923
+2022-09-30 20:09:52.4|Info|HousekeepingService|Running housecleaning tasks
+2022-09-30 20:09:52.7|Info|ImportListSyncService|Starting Import List Sync
+2022-09-30 20:09:52.7|Info|ImportListSyncService|Processing 0 list items
+2022-09-30 20:09:52.8|Info|ImportListSyncService|Import List Sync Completed. Items found: 0, Series added: 0
+2022-09-30 20:09:52.9|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-09-30 20:09:52.9|Info|RefreshEpisodeService|Starting episode info refresh for: [416491][1923]
+2022-09-30 20:09:53.0|Info|RefreshEpisodeService|Finished episode refresh for series: [416491][1923].
+2022-09-30 20:09:53.2|Info|DiskScanService|Scanning 1923
+2022-09-30 20:09:53.2|Info|DiskScanService|Completed scanning disk for 1923
+2022-09-30 20:09:53.2|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 20:09:53.2|Info|RefreshSeriesService|Updating Chicago P.D.
+2022-09-30 20:09:53.3|Info|Database|Vacuuming Log database
+2022-09-30 20:09:53.3|Info|Database|Log database compressed
+2022-09-30 20:09:53.3|Info|Database|Vacuuming Main database
+2022-09-30 20:09:53.6|Info|Database|Main database compressed
+2022-09-30 20:09:53.6|Info|RefreshEpisodeService|Starting episode info refresh for: [269641][Chicago P.D.]
+2022-09-30 20:09:53.9|Info|RefreshEpisodeService|Finished episode refresh for series: [269641][Chicago P.D.].
+2022-09-30 20:09:53.9|Info|DiskScanService|Scanning Chicago P.D.
+2022-09-30 20:09:53.9|Info|DiskScanService|Completed scanning disk for Chicago P.D.
+2022-09-30 20:09:53.9|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-09-30 20:09:53.9|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-09-30 20:09:53.9|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-09-30 20:09:53.9|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-09-30 20:09:54.0|Info|RefreshSeriesService|Skipping refresh of series: CSI: Crime Scene Investigation
+2022-09-30 20:09:54.0|Info|DiskScanService|Scanning CSI: Crime Scene Investigation
+2022-09-30 20:09:56.4|Info|DiskScanService|Completed scanning disk for CSI: Crime Scene Investigation
+2022-09-30 20:09:56.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-09-30 20:09:56.8|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-09-30 20:09:56.8|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-09-30 20:09:56.8|Info|ExistingExtraFileService|Found 43 possible extra files, imported 43 files.
+2022-09-30 20:09:56.9|Info|RefreshSeriesService|Skipping refresh of series: CSI: Miami
+2022-09-30 20:09:56.9|Info|DiskScanService|Scanning CSI: Miami
+2022-09-30 20:09:57.2|Info|DiskScanService|Completed scanning disk for CSI: Miami
+2022-09-30 20:09:57.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-09-30 20:09:57.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-09-30 20:09:57.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-09-30 20:09:57.2|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-09-30 20:09:57.3|Info|RefreshSeriesService|Skipping refresh of series: CSI: NY
+2022-09-30 20:09:57.3|Info|DiskScanService|Scanning CSI: NY
+2022-09-30 20:09:57.5|Info|DiskScanService|Completed scanning disk for CSI: NY
+2022-09-30 20:09:57.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-09-30 20:09:57.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-09-30 20:09:57.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-09-30 20:09:57.7|Info|ExistingExtraFileService|Found 197 possible extra files, imported 197 files.
+2022-09-30 20:09:57.8|Info|RefreshSeriesService|Updating CSI: Vegas
+2022-09-30 20:09:57.9|Info|RefreshEpisodeService|Starting episode info refresh for: [400248][CSI: Vegas]
+2022-09-30 20:09:58.0|Info|RefreshEpisodeService|Finished episode refresh for series: [400248][CSI: Vegas].
+2022-09-30 20:09:58.0|Info|DiskScanService|Scanning CSI: Vegas
+2022-09-30 20:09:58.5|Info|DiskScanService|Completed scanning disk for CSI: Vegas
+2022-09-30 20:09:58.5|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 20:09:58.5|Info|RefreshSeriesService|Updating The Curse of Oak Island
+2022-09-30 20:09:58.7|Info|RefreshEpisodeService|Starting episode info refresh for: [276515][The Curse of Oak Island]
+2022-09-30 20:09:58.8|Info|RefreshEpisodeService|Finished episode refresh for series: [276515][The Curse of Oak Island].
+2022-09-30 20:09:58.8|Info|DiskScanService|Scanning The Curse of Oak Island
+2022-09-30 20:09:58.8|Info|DiskScanService|Completed scanning disk for The Curse of Oak Island
+2022-09-30 20:09:58.8|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 20:09:58.9|Info|RefreshSeriesService|Updating Grey's Anatomy
+2022-09-30 20:09:59.2|Info|RefreshEpisodeService|Starting episode info refresh for: [73762][Grey's Anatomy]
+2022-09-30 20:09:59.4|Info|RefreshEpisodeService|Finished episode refresh for series: [73762][Grey's Anatomy].
+2022-09-30 20:09:59.4|Info|DiskScanService|Scanning Grey's Anatomy
+2022-09-30 20:09:59.5|Info|DiskScanService|Completed scanning disk for Grey's Anatomy
+2022-09-30 20:09:59.5|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 20:09:59.5|Info|RefreshSeriesService|Skipping refresh of series: Heroes
+2022-09-30 20:09:59.5|Info|DiskScanService|Scanning Heroes
+2022-09-30 20:09:59.6|Info|DiskScanService|Completed scanning disk for Heroes
+2022-09-30 20:09:59.6|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-09-30 20:09:59.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-09-30 20:09:59.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-09-30 20:09:59.6|Info|ExistingExtraFileService|Found 1 possible extra files, imported 1 files.
+2022-09-30 20:09:59.6|Info|RefreshSeriesService|Updating House of the Dragon
+2022-09-30 20:09:59.7|Info|RefreshEpisodeService|Starting episode info refresh for: [371572][House of the Dragon]
+2022-09-30 20:09:59.8|Info|RefreshEpisodeService|Finished episode refresh for series: [371572][House of the Dragon].
+2022-09-30 20:09:59.8|Info|DiskScanService|Scanning House of the Dragon
+2022-09-30 20:09:59.8|Info|DiskScanService|Completed scanning disk for House of the Dragon
+2022-09-30 20:09:59.8|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 20:09:59.8|Info|RefreshSeriesService|Updating On Patrol: Live
+2022-09-30 20:10:00.0|Info|RefreshEpisodeService|Starting episode info refresh for: [421076][On Patrol: Live]
+2022-09-30 20:10:00.0|Info|RefreshEpisodeService|Finished episode refresh for series: [421076][On Patrol: Live].
+2022-09-30 20:10:00.0|Info|DiskScanService|Scanning On Patrol: Live
+2022-09-30 20:10:00.0|Info|DiskScanService|Completed scanning disk for On Patrol: Live
+2022-09-30 20:10:00.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-09-30 20:10:00.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-09-30 20:10:00.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-09-30 20:10:00.0|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-09-30 20:10:00.1|Info|RefreshSeriesService|Updating The Secret of Skinwalker Ranch
+2022-09-30 20:10:00.2|Info|RefreshEpisodeService|Starting episode info refresh for: [378178][The Secret of Skinwalker Ranch]
+2022-09-30 20:10:00.2|Info|RefreshEpisodeService|Finished episode refresh for series: [378178][The Secret of Skinwalker Ranch].
+2022-09-30 20:10:00.2|Info|DiskScanService|Scanning The Secret of Skinwalker Ranch
+2022-09-30 20:10:00.2|Info|DiskScanService|Completed scanning disk for The Secret of Skinwalker Ranch
+2022-09-30 20:10:00.2|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 20:10:00.2|Info|RefreshSeriesService|Updating Station 19
+2022-09-30 20:10:00.4|Info|RefreshEpisodeService|Starting episode info refresh for: [341852][Station 19]
+2022-09-30 20:10:00.4|Info|RefreshEpisodeService|Finished episode refresh for series: [341852][Station 19].
+2022-09-30 20:10:00.4|Info|DiskScanService|Scanning Station 19
+2022-09-30 20:10:00.4|Info|DiskScanService|Completed scanning disk for Station 19
+2022-09-30 20:10:00.5|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 20:10:00.5|Info|RefreshSeriesService|Updating Yellowstone (2018)
+2022-09-30 20:10:00.6|Info|RefreshEpisodeService|Starting episode info refresh for: [341164][Yellowstone (2018)]
+2022-09-30 20:10:00.6|Info|RefreshEpisodeService|Finished episode refresh for series: [341164][Yellowstone (2018)].
+2022-09-30 20:10:00.7|Info|DiskScanService|Scanning Yellowstone (2018)
+2022-09-30 20:10:00.7|Info|DiskScanService|Completed scanning disk for Yellowstone (2018)
+2022-09-30 20:10:00.7|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2022-09-30 20:10:22.8|Info|SceneMappingService|Updating Scene mappings
+2022-09-30 20:12:53.0|Info|RssSyncService|Starting RSS Sync
+2022-09-30 20:12:53.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 20:12:53.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 20:27:53.3|Info|RssSyncService|Starting RSS Sync
+2022-09-30 20:27:53.8|Warn|Torznab|Indexer IPTorrents rss sync didn't cover the period between 9/30/2022 11:40:21 PM and 9/30/2022 11:59:17 PM UTC. Search may be required.
+2022-09-30 20:27:53.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 20:27:53.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 20:42:54.1|Info|RssSyncService|Starting RSS Sync
+2022-09-30 20:42:54.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 20:42:54.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 20:57:54.5|Info|RssSyncService|Starting RSS Sync
+2022-09-30 20:57:54.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 20:57:55.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 21:12:55.4|Info|RssSyncService|Starting RSS Sync
+2022-09-30 21:12:57.0|Warn|Torznab|Indexer IPTorrents rss sync didn't cover the period between 10/1/2022 12:25:41 AM and 10/1/2022 12:44:26 AM UTC. Search may be required.
+2022-09-30 21:12:57.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 21:12:57.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 21:14:25.6|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from transmission
+
+[v3.0.9.1549] NzbDrone.Core.Download.Clients.DownloadClientUnavailableException: Unable to connect to Transmission, please check your settings ---> System.Net.WebException: Error: ConnectFailure (Connection refused): 'http://192.168.1.100:9091/transmission/rpc' ---> System.Net.WebException: Error: ConnectFailure (Connection refused) ---> System.Net.Sockets.SocketException: Connection refused
+  at System.Net.Sockets.SocketAsyncResult.CheckIfThrowDelayedException () [0x00014] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.Sockets.Socket.EndConnect (System.IAsyncResult asyncResult) [0x0002c] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection+<>c.<Connect>b__16_1 (System.IAsyncResult asyncResult) [0x00006] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x00019] in <de882a77e7c14f8ba5d298093dde82b2>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x001e1] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.WebConnection.Connect (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x0025d] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebConnection.InitConnection (System.Net.WebOperation operation, System.Threading.CancellationToken cancellationToken) [0x000cc] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebOperation.Run () [0x0009a] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.WebCompletionSource`1[T].WaitForCompletion () [0x00094] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at System.Net.HttpWebRequest.GetRequestStream () [0x00016] in <33b19a7ad5234d94abf4fd9b47566616>:0 
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x000f7] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:75 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookies) [0x001c0] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:107 
+  at NzbDrone.Common.Http.HttpClient.ExecuteRequest (NzbDrone.Common.Http.HttpRequest request, System.Net.CookieContainer cookieContainer) [0x00086] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:126 
+  at NzbDrone.Common.Http.HttpClient.Execute (NzbDrone.Common.Http.HttpRequest request) [0x00008] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Common\Http\HttpClient.cs:59 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00072] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:271 
+   --- End of inner exception stack trace ---
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.ProcessRequest (System.String action, System.Object arguments, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00150] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:313 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (System.Collections.Generic.IEnumerable`1[T] hashStrings, NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x000cb] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:188 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrentStatus (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:153 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionProxy.GetTorrents (NzbDrone.Core.Download.Clients.Transmission.TransmissionSettings settings) [0x00000] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionProxy.cs:43 
+  at NzbDrone.Core.Download.Clients.Transmission.TransmissionBase.GetItems () [0x00012] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\Clients\Transmission\TransmissionBase.cs:36 
+  at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads (NzbDrone.Core.Download.IDownloadClient downloadClient) [0x0000c] in M:\BuildAgent\work\63739567f01dbcc2\src\NzbDrone.Core\Download\TrackedDownloads\DownloadMonitoringService.cs:93 
+
+2022-09-30 21:28:26.1|Info|RssSyncService|Starting RSS Sync
+2022-09-30 21:28:26.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 21:28:26.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 21:43:26.8|Info|RssSyncService|Starting RSS Sync
+2022-09-30 21:43:26.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 21:43:27.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0

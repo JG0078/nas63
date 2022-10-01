@@ -11,6 +11,7 @@ unlinkDup () {
     filename2=$(find "$2" -type f -name "$filename1")
     echo "Main file $filename2"
     echo "Duplicate file $1"
+    echo ""
 
     # Check the file is exists or not
     if [ -f "$1" ] ; then
@@ -20,8 +21,11 @@ unlinkDup () {
     ln -s "$filename2" "$1"
     linkdetails=$(ls -l $1)
     echo "New Link Created -> $linkdetails"
+    echo ""
+  else
+    echo "No duplicates found in $2"
   fi
-
+  
 }
 
 
@@ -34,11 +38,13 @@ walk_dir () {
       case "$pathname" in
         *.mkv|*.avi|*.mpg)
           if [[ ! -L "$pathname" ]]; then
+            echo "Searching for Duplicate for $pathname"
             unlinkDup "$pathname" "/plex/library/tv"
             unlinkDup "$pathname" "/plex/library/movies"
+            echo ""
           fi
         ;;
-      *.png|*.nfo|*.part|*.rar|*.sfv|*.r0*|*.r1*)
+      *.png|*.nfo|*.part|*.rar|*.sfv|*.r0*|*.r1*|*.r2*|*.r3*|*.r4*|*.r5*|*.r6*|*.r7|*.r8|*.r9)
       ;;
       *)
         echo "File Extension: ${pathname##*.}"
