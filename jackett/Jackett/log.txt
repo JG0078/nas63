@@ -291,3 +291,4 @@
 2022-09-30 22:34:01.7093 Warn Some of the categories provided are unsupported in IPTorrents: 2020 
 2022-09-30 22:34:02.7991 Info Torznab search in IPTorrents => Found 50 releases 
 2022-09-30 22:44:04.1814 Info Torznab search in IPTorrents => Found 50 releases (from cache) 
+2022-09-30 22:59:05.4259 Info Torznab search in IPTorrents => Found 50 releases 
