@@ -54,7 +54,6 @@ Installing Transmission:
 5. sudo apt install transmission
 6. transmission-gtk --version
 
-=======
 Transmission:
  # Having trouble with the settings of transmission if its running in a docker file.
 Manually using Tranmission Install on Ubuntu 20.04
