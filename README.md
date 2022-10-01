@@ -43,9 +43,6 @@ git checkout -b nas63_branch1  (Set the branch name)
 git push -u origin <<NewBranchName>> 
 
 
-<<<<<<< HEAD
-
-
 Installing Transmission:
 - CAn't figure out install via docker at this time.
 - Install manually 3.0 to ubunut 20
@@ -75,8 +72,6 @@ alias tstatus='sudo service transmission-daemon status'
 alias tsettings='sudo nano /etc/transmission-daemon/settings.json'
 
 
-  
->>>>>>> dad2e030d54a5d461d0cfb7b5c607eaf662b8971
 
 
 Installing Plex
