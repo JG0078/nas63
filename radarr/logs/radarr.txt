@@ -4041,3 +4041,1247 @@
 2022-09-30 22:34:01.6|Info|RssSyncService|Starting RSS Sync
 2022-09-30 22:34:02.9|Info|DownloadDecisionMaker|Processing 50 releases
 2022-09-30 22:34:03.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-09-30 23:34:04.2|Info|RssSyncService|Starting RSS Sync
+2022-09-30 23:34:05.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-09-30 23:34:05.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 00:34:06.1|Info|RssSyncService|Starting RSS Sync
+2022-10-01 00:34:06.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 00:34:06.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 01:34:07.5|Info|RssSyncService|Starting RSS Sync
+2022-10-01 01:34:08.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 01:34:08.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 02:34:09.1|Info|RssSyncService|Starting RSS Sync
+2022-10-01 02:34:09.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 02:34:09.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 03:34:10.3|Info|RssSyncService|Starting RSS Sync
+2022-10-01 03:34:10.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 03:34:10.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 04:34:11.5|Info|RssSyncService|Starting RSS Sync
+2022-10-01 04:34:12.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 04:34:12.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 05:34:13.1|Info|RssSyncService|Starting RSS Sync
+2022-10-01 05:34:13.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 05:34:14.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 06:34:15.7|Info|RssSyncService|Starting RSS Sync
+2022-10-01 06:34:30.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 06:34:30.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 07:34:48.6|Info|RssSyncService|Starting RSS Sync
+2022-10-01 07:34:49.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 07:34:49.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 08:34:51.2|Info|RssSyncService|Starting RSS Sync
+2022-10-01 08:34:51.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 08:34:52.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 09:34:54.0|Info|RssSyncService|Starting RSS Sync
+2022-10-01 09:34:54.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 09:34:54.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 10:34:56.4|Info|RssSyncService|Starting RSS Sync
+2022-10-01 10:34:56.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 10:34:57.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 11:34:57.6|Info|RssSyncService|Starting RSS Sync
+2022-10-01 11:34:58.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 11:34:58.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 12:34:59.5|Info|RssSyncService|Starting RSS Sync
+2022-10-01 12:34:59.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 12:35:00.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 13:35:02.4|Info|RssSyncService|Starting RSS Sync
+2022-10-01 13:35:02.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 13:35:03.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 14:35:05.0|Info|RssSyncService|Starting RSS Sync
+2022-10-01 14:35:05.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 14:35:05.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 15:35:07.7|Info|RssSyncService|Starting RSS Sync
+2022-10-01 15:35:08.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 15:35:08.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 16:35:10.3|Info|RssSyncService|Starting RSS Sync
+2022-10-01 16:35:10.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 16:35:10.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 17:35:11.6|Info|RssSyncService|Starting RSS Sync
+2022-10-01 17:35:12.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 17:35:12.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 18:35:13.2|Info|RssSyncService|Starting RSS Sync
+2022-10-01 18:35:13.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 18:35:13.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 19:35:14.6|Info|RssSyncService|Starting RSS Sync
+2022-10-01 19:35:15.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 19:35:15.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 20:33:15.9|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-01 20:33:16.1|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-01 20:33:16.2|Info|HousekeepingService|Running housecleaning tasks
+2022-10-01 20:33:16.4|Info|Database|Vacuuming Log database
+2022-10-01 20:33:16.5|Info|Database|Log database compressed
+2022-10-01 20:33:16.5|Info|Database|Vacuuming Main database
+2022-10-01 20:33:16.6|Info|Database|Main database compressed
+2022-10-01 20:35:16.1|Info|RssSyncService|Starting RSS Sync
+2022-10-01 20:35:16.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 20:35:16.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 21:35:17.3|Info|RssSyncService|Starting RSS Sync
+2022-10-01 21:35:17.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 21:35:17.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 22:35:18.3|Info|RssSyncService|Starting RSS Sync
+2022-10-01 22:35:18.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 22:35:18.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-01 23:35:19.7|Info|RssSyncService|Starting RSS Sync
+2022-10-01 23:35:20.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-01 23:35:20.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 00:35:20.9|Info|RssSyncService|Starting RSS Sync
+2022-10-02 00:35:21.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 00:35:21.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 01:35:22.3|Info|RssSyncService|Starting RSS Sync
+2022-10-02 01:35:22.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 01:35:22.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 02:35:23.6|Info|RssSyncService|Starting RSS Sync
+2022-10-02 02:35:24.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 02:35:24.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 03:35:24.8|Info|RssSyncService|Starting RSS Sync
+2022-10-02 03:35:25.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 03:35:25.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 04:35:26.1|Info|RssSyncService|Starting RSS Sync
+2022-10-02 04:35:26.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 04:35:26.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 05:35:27.5|Info|RssSyncService|Starting RSS Sync
+2022-10-02 05:35:27.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 05:35:28.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 06:35:28.7|Info|RssSyncService|Starting RSS Sync
+2022-10-02 06:35:29.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 06:35:29.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 07:35:30.0|Info|RssSyncService|Starting RSS Sync
+2022-10-02 07:35:30.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 07:35:30.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 08:35:31.3|Info|RssSyncService|Starting RSS Sync
+2022-10-02 08:35:31.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 08:35:31.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 09:35:32.2|Info|RssSyncService|Starting RSS Sync
+2022-10-02 09:35:32.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 09:35:32.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 10:35:33.4|Info|RssSyncService|Starting RSS Sync
+2022-10-02 10:35:33.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 10:35:34.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 11:35:34.7|Info|RssSyncService|Starting RSS Sync
+2022-10-02 11:35:35.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 11:35:35.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 12:35:35.8|Info|RssSyncService|Starting RSS Sync
+2022-10-02 12:35:36.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 12:35:36.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 13:35:36.9|Info|RssSyncService|Starting RSS Sync
+2022-10-02 13:35:37.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 13:35:37.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 14:35:38.4|Info|RssSyncService|Starting RSS Sync
+2022-10-02 14:35:38.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 14:35:39.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 15:35:39.8|Info|RssSyncService|Starting RSS Sync
+2022-10-02 15:35:40.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 15:35:40.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 16:35:40.9|Info|RssSyncService|Starting RSS Sync
+2022-10-02 16:35:41.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 16:35:41.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 17:35:42.2|Info|RssSyncService|Starting RSS Sync
+2022-10-02 17:35:42.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 17:35:42.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 20:46:43.3|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2022-10-02 20:46:43.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-02 20:46:44.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-02 20:46:46.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-02 20:46:47.3|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-02 20:46:48.0|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-02 20:46:52.4|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-10-02 20:47:23.1|Info|HousekeepingService|Running housecleaning tasks
+2022-10-02 20:47:23.2|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-02 20:47:23.9|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-02 20:47:24.2|Info|Database|Vacuuming Log database
+2022-10-02 20:47:24.3|Info|Database|Log database compressed
+2022-10-02 20:47:24.3|Info|Database|Vacuuming Main database
+2022-10-02 20:47:24.6|Info|Database|Main database compressed
+2022-10-02 20:47:26.6|Info|RssSyncService|Starting RSS Sync
+2022-10-02 20:47:27.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 20:47:27.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 21:47:29.2|Info|RssSyncService|Starting RSS Sync
+2022-10-02 21:47:30.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 21:47:31.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 22:47:32.3|Info|RssSyncService|Starting RSS Sync
+2022-10-02 22:47:32.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 22:47:32.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-02 23:47:35.3|Info|RssSyncService|Starting RSS Sync
+2022-10-02 23:47:35.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-02 23:47:36.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 00:47:38.2|Info|RssSyncService|Starting RSS Sync
+2022-10-03 00:47:38.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 00:47:38.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 01:47:41.4|Info|RssSyncService|Starting RSS Sync
+2022-10-03 01:47:41.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 01:47:42.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 02:47:44.8|Info|RssSyncService|Starting RSS Sync
+2022-10-03 02:47:45.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 02:47:45.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 03:47:48.1|Info|RssSyncService|Starting RSS Sync
+2022-10-03 03:47:48.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 03:47:48.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 04:47:49.7|Info|RssSyncService|Starting RSS Sync
+2022-10-03 04:47:50.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 04:47:50.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 05:47:51.1|Info|RssSyncService|Starting RSS Sync
+2022-10-03 05:47:51.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 05:47:51.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 06:47:52.3|Info|RssSyncService|Starting RSS Sync
+2022-10-03 06:47:52.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 06:47:53.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 07:47:55.5|Info|RssSyncService|Starting RSS Sync
+2022-10-03 07:47:56.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 07:47:56.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 08:47:58.8|Info|RssSyncService|Starting RSS Sync
+2022-10-03 08:47:59.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 08:47:59.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 09:48:01.8|Info|RssSyncService|Starting RSS Sync
+2022-10-03 09:48:02.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 09:48:02.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 10:48:04.6|Info|RssSyncService|Starting RSS Sync
+2022-10-03 10:48:05.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 10:48:05.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 11:48:07.3|Info|RssSyncService|Starting RSS Sync
+2022-10-03 11:48:07.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 11:48:08.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 12:48:10.0|Info|RssSyncService|Starting RSS Sync
+2022-10-03 12:48:10.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 12:48:10.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 13:48:13.0|Info|RssSyncService|Starting RSS Sync
+2022-10-03 13:48:13.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 13:48:13.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 14:48:14.3|Info|RssSyncService|Starting RSS Sync
+2022-10-03 14:48:14.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 14:48:15.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 15:48:15.7|Info|RssSyncService|Starting RSS Sync
+2022-10-03 15:48:16.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 15:48:16.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 16:48:17.3|Info|RssSyncService|Starting RSS Sync
+2022-10-03 16:48:18.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 16:48:18.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 17:48:20.2|Info|RssSyncService|Starting RSS Sync
+2022-10-03 17:48:20.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 17:48:21.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 18:48:23.2|Info|RssSyncService|Starting RSS Sync
+2022-10-03 18:48:23.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 18:48:24.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 19:48:25.8|Info|RssSyncService|Starting RSS Sync
+2022-10-03 19:48:26.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 19:48:26.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 20:47:28.4|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-03 20:47:28.6|Info|HousekeepingService|Running housecleaning tasks
+2022-10-03 20:47:29.0|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-03 20:47:29.1|Info|Database|Vacuuming Log database
+2022-10-03 20:47:29.2|Info|Database|Log database compressed
+2022-10-03 20:47:29.2|Info|Database|Vacuuming Main database
+2022-10-03 20:47:29.9|Info|Database|Main database compressed
+2022-10-03 20:48:29.8|Info|RssSyncService|Starting RSS Sync
+2022-10-03 20:48:30.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 20:48:30.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 21:48:32.2|Info|RssSyncService|Starting RSS Sync
+2022-10-03 21:48:32.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 21:48:33.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 22:48:35.0|Info|RssSyncService|Starting RSS Sync
+2022-10-03 22:48:36.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 22:48:36.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-03 23:48:37.9|Info|RssSyncService|Starting RSS Sync
+2022-10-03 23:48:38.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-03 23:48:38.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 00:48:40.6|Info|RssSyncService|Starting RSS Sync
+2022-10-04 00:48:41.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 00:48:41.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 01:48:43.3|Info|RssSyncService|Starting RSS Sync
+2022-10-04 01:48:43.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 01:48:43.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 02:48:46.1|Info|RssSyncService|Starting RSS Sync
+2022-10-04 02:48:46.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 02:48:46.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 03:48:48.6|Info|RssSyncService|Starting RSS Sync
+2022-10-04 03:48:49.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 03:48:49.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 04:48:51.0|Info|RssSyncService|Starting RSS Sync
+2022-10-04 04:48:51.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 04:48:51.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 05:48:52.4|Info|RssSyncService|Starting RSS Sync
+2022-10-04 05:48:52.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 05:48:52.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 06:48:53.8|Info|RssSyncService|Starting RSS Sync
+2022-10-04 06:48:54.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 06:48:54.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 07:48:55.1|Info|RssSyncService|Starting RSS Sync
+2022-10-04 07:48:55.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 07:48:55.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 08:48:57.8|Info|RssSyncService|Starting RSS Sync
+2022-10-04 08:48:58.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 08:48:58.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 09:49:00.5|Info|RssSyncService|Starting RSS Sync
+2022-10-04 09:49:01.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 09:49:01.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 10:49:02.9|Info|RssSyncService|Starting RSS Sync
+2022-10-04 10:49:03.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 10:49:03.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 11:49:05.8|Info|RssSyncService|Starting RSS Sync
+2022-10-04 11:49:06.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 11:49:06.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 12:49:08.2|Info|RssSyncService|Starting RSS Sync
+2022-10-04 12:49:08.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 12:49:08.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 13:49:10.7|Info|RssSyncService|Starting RSS Sync
+2022-10-04 13:49:11.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 13:49:11.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 14:49:13.7|Info|RssSyncService|Starting RSS Sync
+2022-10-04 14:49:14.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 14:49:14.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 15:49:16.0|Info|RssSyncService|Starting RSS Sync
+2022-10-04 15:49:16.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 15:49:16.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 16:49:18.7|Info|RssSyncService|Starting RSS Sync
+2022-10-04 16:49:19.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 16:49:19.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 17:49:20.6|Info|RssSyncService|Starting RSS Sync
+2022-10-04 17:49:21.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 17:49:21.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 18:49:23.4|Info|RssSyncService|Starting RSS Sync
+2022-10-04 18:49:24.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 18:49:24.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 19:49:26.4|Info|RssSyncService|Starting RSS Sync
+2022-10-04 19:49:27.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 19:49:27.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 20:47:29.0|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-04 20:47:59.3|Info|HousekeepingService|Running housecleaning tasks
+2022-10-04 20:47:59.4|Info|Database|Vacuuming Log database
+2022-10-04 20:47:59.4|Info|Database|Log database compressed
+2022-10-04 20:47:59.4|Info|Database|Vacuuming Main database
+2022-10-04 20:47:59.5|Info|Database|Main database compressed
+2022-10-04 20:47:59.8|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-04 20:49:31.0|Info|RssSyncService|Starting RSS Sync
+2022-10-04 20:49:31.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 20:49:31.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 21:49:32.1|Info|RssSyncService|Starting RSS Sync
+2022-10-04 21:49:32.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 21:49:32.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 22:49:34.0|Info|RssSyncService|Starting RSS Sync
+2022-10-04 22:49:34.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 22:49:34.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-04 23:26:46.7|Error|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+
+[v4.2.4.6635] FluentValidation.ValidationException: Validation failed: 
+ -- Path: Invalid Path
+ -- RootFolderPath: Invalid Path
+   at Radarr.Http.REST.RestController`1.ValidateResource(TResource resource, Boolean skipValidate, Boolean skipSharedValidate) in D:\a\1\s\src\Radarr.Http\REST\RestController.cs:line 113
+   at Radarr.Http.REST.RestController`1.OnActionExecuting(ActionExecutingContext context) in D:\a\1\s\src\Radarr.Http\REST\RestController.cs:line 72
+   at Microsoft.AspNetCore.Mvc.Controller.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\BufferingMiddleware.cs:line 27
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\IfModifiedMiddleware.cs:line 40
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\CacheHeaderMiddleware.cs:line 32
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\UrlBaseMiddleware.cs:line 26
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\VersionMiddleware.cs:line 27
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+
+2022-10-04 23:26:46.9|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- Path: Invalid Path
+ -- RootFolderPath: Invalid Path
+2022-10-04 23:27:51.8|Info|AddMovieService|Adding Movie [To Leslie (2022)][tt8129806, 823147] Path: [/movies/To Leslie.2022To.LeslieTo.LeslieTo.Leslie]
+2022-10-04 23:27:52.1|Info|RefreshMovieService|Updating info for To Leslie
+2022-10-04 23:27:52.9|Info|MediaCoverService|Downloading Poster for [To Leslie (2022)][tt8129806, 823147] https://image.tmdb.org/t/p/original/yNlgpsLoJTBq0lmKKY0HTq9ZXn6.jpg
+2022-10-04 23:27:52.9|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-04 23:27:52.9|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-04 23:27:52.9|Info|MovieScannedHandler|[To Leslie] was recently added, performing post-add actions
+2022-10-04 23:27:53.1|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2022-10-04 23:27:53.1|Info|MediaCoverService|Downloading Fanart for [To Leslie (2022)][tt8129806, 823147] https://image.tmdb.org/t/p/original/zFUKwOo8xMfCXvMXz4ujkW97ISV.jpg
+2022-10-04 23:27:53.1|Info|ReleaseSearchService|Searching indexers for [To Leslie]. 1 active indexers
+2022-10-04 23:27:55.2|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2022-10-04 23:27:55.4|Info|DownloadDecisionMaker|No results found
+2022-10-04 23:27:55.4|Info|MovieSearchService|Movie search completed. 0 reports downloaded.
+2022-10-04 23:29:17.6|Info|ReleaseSearchService|Searching indexers for [To Leslie]. 1 active indexers
+2022-10-04 23:29:19.6|Info|DownloadDecisionMaker|No results found
+2022-10-04 23:49:36.7|Info|RssSyncService|Starting RSS Sync
+2022-10-04 23:50:11.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-04 23:50:11.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 00:50:39.2|Info|RssSyncService|Starting RSS Sync
+2022-10-05 00:50:47.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 00:50:47.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 01:51:11.8|Info|RssSyncService|Starting RSS Sync
+2022-10-05 01:51:12.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 01:51:12.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 02:51:15.0|Info|RssSyncService|Starting RSS Sync
+2022-10-05 02:51:15.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 02:51:15.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 03:51:18.3|Info|RssSyncService|Starting RSS Sync
+2022-10-05 03:51:19.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 03:51:19.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 04:51:21.5|Info|RssSyncService|Starting RSS Sync
+2022-10-05 04:51:22.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 04:51:22.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 05:51:24.0|Info|RssSyncService|Starting RSS Sync
+2022-10-05 05:51:24.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 05:51:24.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 06:51:26.3|Info|RssSyncService|Starting RSS Sync
+2022-10-05 06:51:26.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 06:51:27.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 07:51:27.6|Info|RssSyncService|Starting RSS Sync
+2022-10-05 07:51:28.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 07:51:28.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 08:51:29.6|Info|RssSyncService|Starting RSS Sync
+2022-10-05 08:51:30.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 08:51:30.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 09:51:31.2|Info|RssSyncService|Starting RSS Sync
+2022-10-05 09:51:31.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 09:51:32.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 10:51:32.8|Info|RssSyncService|Starting RSS Sync
+2022-10-05 10:51:33.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 10:51:33.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 11:51:35.2|Info|RssSyncService|Starting RSS Sync
+2022-10-05 11:51:36.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 11:51:36.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 12:51:38.0|Info|RssSyncService|Starting RSS Sync
+2022-10-05 12:51:38.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 12:51:38.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 13:51:40.9|Info|RssSyncService|Starting RSS Sync
+2022-10-05 13:51:41.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 13:51:41.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 14:51:44.1|Info|RssSyncService|Starting RSS Sync
+2022-10-05 14:51:44.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 14:51:44.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 15:51:47.3|Info|RssSyncService|Starting RSS Sync
+2022-10-05 15:51:47.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 15:51:47.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 16:51:50.3|Info|RssSyncService|Starting RSS Sync
+2022-10-05 16:51:50.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 16:51:51.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 17:51:52.9|Info|RssSyncService|Starting RSS Sync
+2022-10-05 17:51:53.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 17:51:53.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 18:51:55.9|Info|RssSyncService|Starting RSS Sync
+2022-10-05 18:51:56.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 18:51:56.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 19:51:58.6|Info|RssSyncService|Starting RSS Sync
+2022-10-05 19:51:59.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 19:51:59.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 20:47:31.6|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-05 20:48:01.5|Info|HousekeepingService|Running housecleaning tasks
+2022-10-05 20:48:01.6|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-05 20:48:02.2|Info|Database|Vacuuming Log database
+2022-10-05 20:48:02.3|Info|Database|Log database compressed
+2022-10-05 20:48:02.3|Info|Database|Vacuuming Main database
+2022-10-05 20:48:02.4|Info|Database|Main database compressed
+2022-10-05 20:48:02.6|Info|RefreshMovieService|Updating info for To Leslie
+2022-10-05 20:48:05.0|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-05 20:48:05.0|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-05 20:48:05.0|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2022-10-05 20:52:02.4|Info|RssSyncService|Starting RSS Sync
+2022-10-05 20:52:03.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 20:52:03.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 21:52:05.0|Info|RssSyncService|Starting RSS Sync
+2022-10-05 21:52:05.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 21:52:05.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 22:52:07.7|Info|RssSyncService|Starting RSS Sync
+2022-10-05 22:52:08.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 22:52:08.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-05 23:52:10.7|Info|RssSyncService|Starting RSS Sync
+2022-10-05 23:52:11.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-05 23:52:11.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 00:52:13.3|Info|RssSyncService|Starting RSS Sync
+2022-10-06 00:52:13.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 00:52:16.8|Info|DownloadService|Report sent to Transmission. To Leslie 2022 1080p WEB-DL DD5 1 H 264-EVO
+2022-10-06 00:52:17.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 1
+2022-10-06 01:12:10.7|Info|MovieService|Assigning file [To.Leslie.2022.1080p.WEB-DL.DD5.1.H.264-EVO.mkv] to movie [[To Leslie (2022)][tt8129806, 823147]]
+2022-10-06 01:52:46.0|Info|RssSyncService|Starting RSS Sync
+2022-10-06 01:52:47.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 01:52:47.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 02:52:48.8|Info|RssSyncService|Starting RSS Sync
+2022-10-06 02:52:49.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 02:52:49.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 03:52:51.5|Info|RssSyncService|Starting RSS Sync
+2022-10-06 03:52:52.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 03:52:52.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 04:52:53.9|Info|RssSyncService|Starting RSS Sync
+2022-10-06 04:52:54.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 04:52:54.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 05:52:56.8|Info|RssSyncService|Starting RSS Sync
+2022-10-06 05:52:57.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 05:52:57.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 06:52:59.5|Info|RssSyncService|Starting RSS Sync
+2022-10-06 06:52:59.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 06:53:00.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 07:53:01.9|Info|RssSyncService|Starting RSS Sync
+2022-10-06 07:53:02.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 07:53:02.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 08:53:04.3|Info|RssSyncService|Starting RSS Sync
+2022-10-06 08:53:04.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 08:53:05.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 09:53:06.9|Info|RssSyncService|Starting RSS Sync
+2022-10-06 09:53:07.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 09:53:07.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 10:53:09.3|Info|RssSyncService|Starting RSS Sync
+2022-10-06 10:53:09.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 10:53:10.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 11:53:11.6|Info|RssSyncService|Starting RSS Sync
+2022-10-06 11:53:12.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 11:53:12.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 12:53:13.6|Info|RssSyncService|Starting RSS Sync
+2022-10-06 12:53:14.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 12:53:14.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 13:53:16.9|Info|RssSyncService|Starting RSS Sync
+2022-10-06 13:53:17.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 13:53:17.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 14:53:20.3|Info|RssSyncService|Starting RSS Sync
+2022-10-06 14:53:20.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 14:53:21.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 15:53:22.9|Info|RssSyncService|Starting RSS Sync
+2022-10-06 15:53:23.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 15:53:23.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 16:53:25.7|Info|RssSyncService|Starting RSS Sync
+2022-10-06 16:53:26.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 16:53:26.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 17:53:28.5|Info|RssSyncService|Starting RSS Sync
+2022-10-06 17:53:29.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 17:53:29.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 18:53:31.7|Info|RssSyncService|Starting RSS Sync
+2022-10-06 18:53:32.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 18:53:32.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 19:53:34.3|Info|RssSyncService|Starting RSS Sync
+2022-10-06 19:53:34.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 19:53:35.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 20:33:06.3|Info|BackupService|Starting Backup
+2022-10-06 20:47:37.1|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-06 20:48:07.4|Info|HousekeepingService|Running housecleaning tasks
+2022-10-06 20:48:07.5|Info|Database|Vacuuming Log database
+2022-10-06 20:48:07.7|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-06 20:48:07.8|Info|Database|Log database compressed
+2022-10-06 20:48:07.8|Info|Database|Vacuuming Main database
+2022-10-06 20:48:08.5|Info|Database|Main database compressed
+2022-10-06 20:48:08.8|Info|RefreshMovieService|Updating info for To Leslie
+2022-10-06 20:48:11.1|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-06 20:48:11.2|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-06 20:48:11.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-06 20:48:11.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-06 20:48:11.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-06 20:48:11.2|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-06 20:53:38.6|Info|RssSyncService|Starting RSS Sync
+2022-10-06 20:53:39.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 20:53:39.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 21:53:42.1|Info|RssSyncService|Starting RSS Sync
+2022-10-06 21:53:42.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 21:53:42.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 22:53:44.6|Info|RssSyncService|Starting RSS Sync
+2022-10-06 22:53:45.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 22:53:45.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-06 23:53:47.2|Info|RssSyncService|Starting RSS Sync
+2022-10-06 23:53:47.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-06 23:53:48.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 00:53:50.4|Info|RssSyncService|Starting RSS Sync
+2022-10-07 00:53:52.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 00:53:52.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 01:53:53.2|Info|RssSyncService|Starting RSS Sync
+2022-10-07 01:53:53.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 01:53:53.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 02:53:56.4|Info|RssSyncService|Starting RSS Sync
+2022-10-07 02:53:56.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 02:53:57.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 03:53:58.9|Info|RssSyncService|Starting RSS Sync
+2022-10-07 03:53:59.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 03:53:59.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 04:54:01.5|Info|RssSyncService|Starting RSS Sync
+2022-10-07 04:54:02.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 04:54:02.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 05:54:04.3|Info|RssSyncService|Starting RSS Sync
+2022-10-07 05:54:04.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 05:54:05.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 06:54:07.0|Info|RssSyncService|Starting RSS Sync
+2022-10-07 06:54:07.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 06:54:07.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 07:54:08.2|Info|RssSyncService|Starting RSS Sync
+2022-10-07 07:54:08.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 07:54:08.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 08:54:10.4|Info|RssSyncService|Starting RSS Sync
+2022-10-07 08:54:11.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 08:54:11.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 09:54:13.6|Info|RssSyncService|Starting RSS Sync
+2022-10-07 09:54:14.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 09:54:14.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 10:54:16.5|Info|RssSyncService|Starting RSS Sync
+2022-10-07 10:54:17.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 10:54:17.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 11:54:19.3|Info|RssSyncService|Starting RSS Sync
+2022-10-07 11:54:19.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 11:54:19.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 12:54:21.2|Info|RssSyncService|Starting RSS Sync
+2022-10-07 12:54:21.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 12:54:21.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 13:54:23.4|Info|RssSyncService|Starting RSS Sync
+2022-10-07 13:54:24.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 13:54:24.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 14:54:26.5|Info|RssSyncService|Starting RSS Sync
+2022-10-07 14:54:27.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 14:54:27.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 15:54:28.8|Info|RssSyncService|Starting RSS Sync
+2022-10-07 15:54:29.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 15:54:29.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 16:54:32.0|Info|RssSyncService|Starting RSS Sync
+2022-10-07 16:54:32.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 16:54:32.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 17:54:34.9|Info|RssSyncService|Starting RSS Sync
+2022-10-07 17:54:35.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 17:54:35.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 18:54:37.9|Info|RssSyncService|Starting RSS Sync
+2022-10-07 18:54:38.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 18:54:38.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 19:54:40.9|Info|RssSyncService|Starting RSS Sync
+2022-10-07 19:54:41.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 19:54:41.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 20:47:43.3|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-07 20:48:13.5|Info|HousekeepingService|Running housecleaning tasks
+2022-10-07 20:48:13.8|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-07 20:48:14.2|Info|Database|Vacuuming Log database
+2022-10-07 20:48:14.3|Info|Database|Log database compressed
+2022-10-07 20:48:14.3|Info|Database|Vacuuming Main database
+2022-10-07 20:48:14.6|Info|Database|Main database compressed
+2022-10-07 20:48:14.8|Info|RefreshMovieService|Updating info for To Leslie
+2022-10-07 20:48:15.7|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-07 20:48:15.7|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-07 20:48:15.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-07 20:48:15.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-07 20:48:15.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-07 20:48:15.7|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-07 20:54:44.5|Info|RssSyncService|Starting RSS Sync
+2022-10-07 20:54:44.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 20:54:45.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 21:54:46.9|Info|RssSyncService|Starting RSS Sync
+2022-10-07 21:54:47.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 21:54:47.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 22:54:50.1|Info|RssSyncService|Starting RSS Sync
+2022-10-07 22:54:50.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 22:54:50.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-07 23:54:53.0|Info|RssSyncService|Starting RSS Sync
+2022-10-07 23:54:53.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-07 23:54:53.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 00:54:56.1|Info|RssSyncService|Starting RSS Sync
+2022-10-08 00:54:56.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 00:54:56.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 01:54:59.4|Info|RssSyncService|Starting RSS Sync
+2022-10-08 01:54:59.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 01:55:00.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 02:55:02.3|Info|RssSyncService|Starting RSS Sync
+2022-10-08 02:55:02.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 02:55:03.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 03:55:04.7|Info|RssSyncService|Starting RSS Sync
+2022-10-08 03:55:05.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 03:55:05.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 04:55:07.4|Info|RssSyncService|Starting RSS Sync
+2022-10-08 04:55:07.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 04:55:08.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 05:55:10.0|Info|RssSyncService|Starting RSS Sync
+2022-10-08 05:55:10.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 05:55:10.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 06:55:12.7|Info|RssSyncService|Starting RSS Sync
+2022-10-08 06:55:13.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 06:55:13.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 07:55:15.2|Info|RssSyncService|Starting RSS Sync
+2022-10-08 07:55:15.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 07:55:15.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 08:55:18.2|Info|RssSyncService|Starting RSS Sync
+2022-10-08 08:55:18.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 08:55:18.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 09:55:21.4|Info|RssSyncService|Starting RSS Sync
+2022-10-08 09:55:22.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 09:55:22.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 10:55:23.7|Info|RssSyncService|Starting RSS Sync
+2022-10-08 10:55:24.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 10:55:24.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 11:55:27.0|Info|RssSyncService|Starting RSS Sync
+2022-10-08 11:55:27.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 11:55:27.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 12:55:29.5|Info|RssSyncService|Starting RSS Sync
+2022-10-08 12:55:30.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 12:55:30.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 13:55:32.7|Info|RssSyncService|Starting RSS Sync
+2022-10-08 13:55:33.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 13:55:33.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 14:55:35.3|Info|RssSyncService|Starting RSS Sync
+2022-10-08 14:55:35.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 14:55:35.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 15:55:38.3|Info|RssSyncService|Starting RSS Sync
+2022-10-08 15:55:39.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 15:55:39.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 16:55:41.5|Info|RssSyncService|Starting RSS Sync
+2022-10-08 16:55:41.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 16:55:42.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 17:55:44.7|Info|RssSyncService|Starting RSS Sync
+2022-10-08 17:55:45.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 17:55:45.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 18:55:47.4|Info|RssSyncService|Starting RSS Sync
+2022-10-08 18:55:47.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 18:55:48.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 19:55:50.4|Info|RssSyncService|Starting RSS Sync
+2022-10-08 19:55:51.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 19:55:51.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 20:47:53.1|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-08 20:48:23.4|Info|HousekeepingService|Running housecleaning tasks
+2022-10-08 20:48:23.6|Info|Database|Vacuuming Log database
+2022-10-08 20:48:23.7|Info|Database|Log database compressed
+2022-10-08 20:48:23.7|Info|Database|Vacuuming Main database
+2022-10-08 20:48:23.7|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-08 20:48:24.0|Info|Database|Main database compressed
+2022-10-08 20:48:24.7|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-08 20:48:24.7|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-08 20:48:24.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-08 20:48:24.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-08 20:48:24.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-08 20:48:24.7|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-08 20:55:55.1|Info|RssSyncService|Starting RSS Sync
+2022-10-08 20:55:55.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 20:55:55.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 21:55:57.6|Info|RssSyncService|Starting RSS Sync
+2022-10-08 21:55:57.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 21:55:58.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 22:55:59.0|Info|RssSyncService|Starting RSS Sync
+2022-10-08 22:55:59.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 22:55:59.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-08 23:56:00.5|Info|RssSyncService|Starting RSS Sync
+2022-10-08 23:56:01.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-08 23:56:01.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 00:56:03.4|Info|RssSyncService|Starting RSS Sync
+2022-10-09 00:56:03.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 00:56:04.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 01:56:05.9|Info|RssSyncService|Starting RSS Sync
+2022-10-09 01:56:06.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 01:56:06.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 02:56:09.4|Info|RssSyncService|Starting RSS Sync
+2022-10-09 02:56:09.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 02:56:10.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 03:56:11.8|Info|RssSyncService|Starting RSS Sync
+2022-10-09 03:56:13.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 03:56:13.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 04:56:14.4|Info|RssSyncService|Starting RSS Sync
+2022-10-09 04:56:14.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 04:56:15.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 05:56:16.8|Info|RssSyncService|Starting RSS Sync
+2022-10-09 05:56:17.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 05:56:17.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 06:56:19.2|Info|RssSyncService|Starting RSS Sync
+2022-10-09 06:56:19.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 06:56:19.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 07:56:20.5|Info|RssSyncService|Starting RSS Sync
+2022-10-09 07:56:21.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 07:56:21.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 08:56:23.7|Info|RssSyncService|Starting RSS Sync
+2022-10-09 08:56:24.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 08:56:24.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 09:56:26.2|Info|RssSyncService|Starting RSS Sync
+2022-10-09 09:56:26.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 09:56:26.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 10:56:29.3|Info|RssSyncService|Starting RSS Sync
+2022-10-09 10:56:29.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 10:56:30.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 11:56:32.1|Info|RssSyncService|Starting RSS Sync
+2022-10-09 11:56:32.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 11:56:32.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 12:56:34.9|Info|RssSyncService|Starting RSS Sync
+2022-10-09 12:56:35.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 12:56:35.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 13:56:38.0|Info|RssSyncService|Starting RSS Sync
+2022-10-09 13:56:38.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 13:56:38.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 14:56:41.4|Info|RssSyncService|Starting RSS Sync
+2022-10-09 14:56:41.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 14:56:42.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 15:56:43.8|Info|RssSyncService|Starting RSS Sync
+2022-10-09 15:56:44.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 15:56:44.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 16:56:46.7|Info|RssSyncService|Starting RSS Sync
+2022-10-09 16:56:47.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 16:56:47.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 17:56:49.9|Info|RssSyncService|Starting RSS Sync
+2022-10-09 17:56:50.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 17:56:50.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 18:56:52.8|Info|RssSyncService|Starting RSS Sync
+2022-10-09 18:56:53.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 18:56:53.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 19:56:55.2|Info|RssSyncService|Starting RSS Sync
+2022-10-09 19:56:55.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 19:56:55.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 20:47:56.3|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-09 20:48:26.9|Info|HousekeepingService|Running housecleaning tasks
+2022-10-09 20:48:27.0|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-09 20:48:27.5|Info|Database|Vacuuming Log database
+2022-10-09 20:48:27.5|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-09 20:48:27.5|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-09 20:48:27.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-09 20:48:27.5|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-09 20:48:27.5|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-09 20:48:27.5|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-09 20:48:27.8|Info|Database|Log database compressed
+2022-10-09 20:48:27.8|Info|Database|Vacuuming Main database
+2022-10-09 20:48:27.9|Info|Database|Main database compressed
+2022-10-09 20:56:58.0|Info|RssSyncService|Starting RSS Sync
+2022-10-09 20:56:58.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 20:56:58.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 21:57:00.8|Info|RssSyncService|Starting RSS Sync
+2022-10-09 21:57:01.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 21:57:01.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 22:57:03.2|Info|RssSyncService|Starting RSS Sync
+2022-10-09 22:57:03.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 22:57:04.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-09 23:57:06.4|Info|RssSyncService|Starting RSS Sync
+2022-10-09 23:57:06.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-09 23:57:07.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 00:57:08.9|Info|RssSyncService|Starting RSS Sync
+2022-10-10 00:57:09.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 00:57:09.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 01:57:11.6|Info|RssSyncService|Starting RSS Sync
+2022-10-10 01:57:12.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 01:57:12.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 02:57:14.7|Info|RssSyncService|Starting RSS Sync
+2022-10-10 02:57:15.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 02:57:15.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 03:57:17.9|Info|RssSyncService|Starting RSS Sync
+2022-10-10 03:57:18.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 03:57:18.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 04:57:21.2|Info|RssSyncService|Starting RSS Sync
+2022-10-10 04:57:22.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 04:57:22.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 05:57:24.2|Info|RssSyncService|Starting RSS Sync
+2022-10-10 05:57:24.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 05:57:24.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 06:57:27.1|Info|RssSyncService|Starting RSS Sync
+2022-10-10 06:57:27.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 06:57:27.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 07:57:30.0|Info|RssSyncService|Starting RSS Sync
+2022-10-10 07:57:30.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 07:57:30.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 08:57:32.6|Info|RssSyncService|Starting RSS Sync
+2022-10-10 08:57:33.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 08:57:33.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 09:57:35.4|Info|RssSyncService|Starting RSS Sync
+2022-10-10 09:57:35.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 09:57:36.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 10:57:37.9|Info|RssSyncService|Starting RSS Sync
+2022-10-10 10:57:38.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 10:57:38.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 11:57:39.2|Info|RssSyncService|Starting RSS Sync
+2022-10-10 11:57:39.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 11:57:39.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 12:57:41.8|Info|RssSyncService|Starting RSS Sync
+2022-10-10 12:57:42.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 12:57:42.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 13:57:44.4|Info|RssSyncService|Starting RSS Sync
+2022-10-10 13:57:44.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 13:57:45.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 14:57:47.4|Info|RssSyncService|Starting RSS Sync
+2022-10-10 14:57:47.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 14:57:48.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 15:57:50.1|Info|RssSyncService|Starting RSS Sync
+2022-10-10 15:57:50.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 15:57:50.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 16:57:52.6|Info|RssSyncService|Starting RSS Sync
+2022-10-10 16:57:53.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 16:57:53.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 17:57:55.1|Info|RssSyncService|Starting RSS Sync
+2022-10-10 17:57:55.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 17:57:55.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 18:10:44.7|Info|AddMovieService|Adding Movie [Medieval (2022)][tt8883486, 551271] Path: [/movies/Medieval.2022MedievalMedievalMedieval]
+2022-10-10 18:10:44.9|Info|RefreshMovieService|Updating info for Medieval
+2022-10-10 18:10:45.4|Info|MediaCoverService|Downloading Poster for [Medieval (2022)][tt8883486, 551271] https://image.tmdb.org/t/p/original/4njdAkiBdC5LnFApeXSkFQ78GdT.jpg
+2022-10-10 18:10:45.4|Info|DiskScanService|Scanning disk for Medieval
+2022-10-10 18:10:45.4|Info|DiskScanService|Completed scanning disk for Medieval
+2022-10-10 18:10:45.4|Info|MovieScannedHandler|[Medieval] was recently added, performing post-add actions
+2022-10-10 18:10:45.5|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2022-10-10 18:10:45.6|Info|MediaCoverService|Downloading Fanart for [Medieval (2022)][tt8883486, 551271] https://image.tmdb.org/t/p/original/aQOWnw3HydsCQZ10O0wvxFOaWc3.jpg
+2022-10-10 18:10:45.7|Info|ReleaseSearchService|Searching indexers for [Medieval]. 1 active indexers
+2022-10-10 18:10:46.0|Info|DownloadDecisionMaker|Processing 1 releases
+2022-10-10 18:10:47.0|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2022-10-10 18:10:48.0|Info|DownloadService|Report sent to Transmission. Medieval 2022 1080p WEB-DL DD5 1 H 264-EVO
+2022-10-10 18:10:48.1|Info|MovieSearchService|Movie search completed. 1 reports downloaded.
+2022-10-10 18:25:01.6|Info|MovieService|Assigning file [Medieval.2022.1080p.WEB-DL.DD5.1.H.264-EVO.mkv] to movie [[Medieval (2022)][tt8883486, 551271]]
+2022-10-10 18:57:58.3|Info|RssSyncService|Starting RSS Sync
+2022-10-10 18:57:58.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 18:57:59.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 19:58:00.7|Info|RssSyncService|Starting RSS Sync
+2022-10-10 19:58:01.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 19:58:01.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 20:48:03.0|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-10 20:48:33.3|Info|HousekeepingService|Running housecleaning tasks
+2022-10-10 20:48:33.4|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-10 20:48:34.3|Info|Database|Vacuuming Log database
+2022-10-10 20:48:34.4|Info|Database|Log database compressed
+2022-10-10 20:48:34.4|Info|Database|Vacuuming Main database
+2022-10-10 20:48:34.5|Info|Database|Main database compressed
+2022-10-10 20:48:34.9|Info|DiskScanService|Scanning disk for Medieval
+2022-10-10 20:48:35.0|Info|DiskScanService|Completed scanning disk for Medieval
+2022-10-10 20:48:35.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-10 20:48:35.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-10 20:48:35.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-10 20:48:35.0|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-10 20:48:35.0|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-10 20:48:35.0|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-10 20:48:35.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-10 20:48:35.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-10 20:48:35.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-10 20:48:35.0|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-10 20:58:04.4|Info|RssSyncService|Starting RSS Sync
+2022-10-10 20:58:04.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 20:58:05.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 21:58:06.9|Info|RssSyncService|Starting RSS Sync
+2022-10-10 21:58:07.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 21:58:07.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 22:58:08.1|Info|RssSyncService|Starting RSS Sync
+2022-10-10 22:58:08.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 22:58:08.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-10 23:58:11.0|Info|RssSyncService|Starting RSS Sync
+2022-10-10 23:58:11.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-10 23:58:11.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 00:58:13.8|Info|RssSyncService|Starting RSS Sync
+2022-10-11 00:58:25.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 00:58:25.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 01:58:46.6|Info|RssSyncService|Starting RSS Sync
+2022-10-11 01:58:47.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 01:58:47.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 02:58:49.8|Info|RssSyncService|Starting RSS Sync
+2022-10-11 02:58:50.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 02:58:50.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 03:58:52.9|Info|RssSyncService|Starting RSS Sync
+2022-10-11 03:58:53.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 03:58:53.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 04:58:55.4|Info|RssSyncService|Starting RSS Sync
+2022-10-11 04:58:55.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 04:58:56.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 05:58:58.3|Info|RssSyncService|Starting RSS Sync
+2022-10-11 05:58:59.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 05:59:00.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 06:59:01.5|Info|RssSyncService|Starting RSS Sync
+2022-10-11 06:59:02.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 06:59:02.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 07:59:04.2|Info|RssSyncService|Starting RSS Sync
+2022-10-11 07:59:05.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 07:59:05.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 08:59:07.1|Info|RssSyncService|Starting RSS Sync
+2022-10-11 08:59:07.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 08:59:07.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 09:59:10.7|Info|RssSyncService|Starting RSS Sync
+2022-10-11 09:59:11.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 09:59:11.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 10:59:13.4|Info|RssSyncService|Starting RSS Sync
+2022-10-11 10:59:13.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 10:59:14.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 11:59:16.0|Info|RssSyncService|Starting RSS Sync
+2022-10-11 11:59:16.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 11:59:16.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 12:59:18.8|Info|RssSyncService|Starting RSS Sync
+2022-10-11 12:59:19.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 12:59:19.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 13:59:21.5|Info|RssSyncService|Starting RSS Sync
+2022-10-11 13:59:22.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 13:59:22.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 14:59:24.5|Info|RssSyncService|Starting RSS Sync
+2022-10-11 14:59:25.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 14:59:25.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 15:59:27.4|Info|RssSyncService|Starting RSS Sync
+2022-10-11 15:59:27.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 15:59:28.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 16:59:29.9|Info|RssSyncService|Starting RSS Sync
+2022-10-11 16:59:30.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 16:59:30.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 17:59:32.4|Info|RssSyncService|Starting RSS Sync
+2022-10-11 17:59:33.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 17:59:33.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 18:59:35.0|Info|RssSyncService|Starting RSS Sync
+2022-10-11 18:59:35.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 18:59:35.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 19:59:37.5|Info|RssSyncService|Starting RSS Sync
+2022-10-11 19:59:38.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 19:59:38.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 20:48:09.8|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-11 20:48:40.0|Info|HousekeepingService|Running housecleaning tasks
+2022-10-11 20:48:40.3|Info|Database|Vacuuming Log database
+2022-10-11 20:48:40.3|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-11 20:48:40.3|Info|Database|Log database compressed
+2022-10-11 20:48:40.3|Info|Database|Vacuuming Main database
+2022-10-11 20:48:40.6|Info|Database|Main database compressed
+2022-10-11 20:48:41.4|Info|RefreshMovieService|Updating info for Medieval
+2022-10-11 20:48:44.2|Info|DiskScanService|Scanning disk for Medieval
+2022-10-11 20:48:44.2|Info|DiskScanService|Completed scanning disk for Medieval
+2022-10-11 20:48:44.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-11 20:48:44.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-11 20:48:44.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-11 20:48:44.2|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-11 20:48:44.2|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-11 20:48:44.2|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-11 20:48:44.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-11 20:48:44.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-11 20:48:44.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-11 20:48:44.2|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-11 20:48:44.5|Info|MediaCoverService|Downloading Fanart for [Medieval (2022)][tt8883486, 551271] https://image.tmdb.org/t/p/original/aQOWnw3HydsCQZ10O0wvxFOaWc3.jpg
+2022-10-11 20:59:41.9|Info|RssSyncService|Starting RSS Sync
+2022-10-11 20:59:42.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 20:59:42.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 21:59:44.3|Info|RssSyncService|Starting RSS Sync
+2022-10-11 21:59:44.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 21:59:45.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 22:59:46.8|Info|RssSyncService|Starting RSS Sync
+2022-10-11 22:59:47.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 22:59:47.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-11 23:59:49.3|Info|RssSyncService|Starting RSS Sync
+2022-10-11 23:59:49.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-11 23:59:50.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 00:59:52.0|Info|RssSyncService|Starting RSS Sync
+2022-10-12 00:59:52.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 00:59:52.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 01:59:54.5|Info|RssSyncService|Starting RSS Sync
+2022-10-12 01:59:55.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 01:59:55.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 02:59:56.1|Info|RssSyncService|Starting RSS Sync
+2022-10-12 02:59:56.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 02:59:56.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 03:59:58.5|Info|RssSyncService|Starting RSS Sync
+2022-10-12 03:59:59.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 03:59:59.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 05:00:01.4|Info|RssSyncService|Starting RSS Sync
+2022-10-12 05:00:02.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 05:00:02.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 06:00:04.1|Info|RssSyncService|Starting RSS Sync
+2022-10-12 06:00:05.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 06:00:05.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 07:00:06.9|Info|RssSyncService|Starting RSS Sync
+2022-10-12 07:00:08.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 07:00:08.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 08:00:09.7|Info|RssSyncService|Starting RSS Sync
+2022-10-12 08:00:11.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 08:00:12.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 09:00:12.3|Info|RssSyncService|Starting RSS Sync
+2022-10-12 09:00:12.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 09:00:13.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 10:00:14.6|Info|RssSyncService|Starting RSS Sync
+2022-10-12 10:00:15.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 10:00:15.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 11:00:17.3|Info|RssSyncService|Starting RSS Sync
+2022-10-12 11:00:17.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 11:00:17.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 12:00:19.7|Info|RssSyncService|Starting RSS Sync
+2022-10-12 12:00:20.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 12:00:20.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 13:00:22.5|Info|RssSyncService|Starting RSS Sync
+2022-10-12 13:00:23.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 13:00:23.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 14:00:25.1|Info|RssSyncService|Starting RSS Sync
+2022-10-12 14:00:25.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 14:00:25.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 15:00:27.8|Info|RssSyncService|Starting RSS Sync
+2022-10-12 15:00:28.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 15:00:28.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 16:00:30.5|Info|RssSyncService|Starting RSS Sync
+2022-10-12 16:00:31.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 16:00:31.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 17:00:33.4|Info|RssSyncService|Starting RSS Sync
+2022-10-12 17:00:33.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 17:00:34.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 18:00:34.7|Info|RssSyncService|Starting RSS Sync
+2022-10-12 18:00:35.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 18:00:35.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 19:00:37.3|Info|RssSyncService|Starting RSS Sync
+2022-10-12 19:00:37.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 19:00:37.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 20:00:39.9|Info|RssSyncService|Starting RSS Sync
+2022-10-12 20:00:40.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 20:00:40.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 20:48:11.3|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-12 20:48:41.4|Info|HousekeepingService|Running housecleaning tasks
+2022-10-12 20:48:41.6|Info|Database|Vacuuming Log database
+2022-10-12 20:48:41.6|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-12 20:48:41.7|Info|Database|Log database compressed
+2022-10-12 20:48:41.7|Info|Database|Vacuuming Main database
+2022-10-12 20:48:41.8|Info|Database|Main database compressed
+2022-10-12 20:49:12.3|Info|RefreshMovieService|Updating info for Medieval
+2022-10-12 20:49:13.2|Info|DiskScanService|Scanning disk for Medieval
+2022-10-12 20:49:13.2|Info|DiskScanService|Completed scanning disk for Medieval
+2022-10-12 20:49:13.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-12 20:49:13.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-12 20:49:13.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-12 20:49:13.2|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-12 20:49:13.2|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-12 20:49:13.2|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-12 20:49:13.2|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-12 20:49:13.2|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-12 20:49:13.2|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-12 20:49:13.2|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-12 20:49:13.5|Info|MediaCoverService|Downloading Fanart for [Medieval (2022)][tt8883486, 551271] https://image.tmdb.org/t/p/original/aQOWnw3HydsCQZ10O0wvxFOaWc3.jpg
+2022-10-12 21:00:43.0|Info|RssSyncService|Starting RSS Sync
+2022-10-12 21:00:43.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 21:00:43.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 22:00:45.5|Info|RssSyncService|Starting RSS Sync
+2022-10-12 22:00:46.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 22:00:46.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-12 23:00:48.1|Info|RssSyncService|Starting RSS Sync
+2022-10-12 23:00:48.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-12 23:00:48.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 00:00:50.7|Info|RssSyncService|Starting RSS Sync
+2022-10-13 00:00:51.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 00:00:51.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 01:00:53.4|Info|RssSyncService|Starting RSS Sync
+2022-10-13 01:00:53.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 01:00:54.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 02:00:55.9|Info|RssSyncService|Starting RSS Sync
+2022-10-13 02:00:56.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 02:00:56.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 03:00:58.7|Info|RssSyncService|Starting RSS Sync
+2022-10-13 03:00:59.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 03:00:59.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 04:01:01.0|Info|RssSyncService|Starting RSS Sync
+2022-10-13 04:01:01.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 04:01:01.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 05:01:02.6|Info|RssSyncService|Starting RSS Sync
+2022-10-13 05:01:03.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 05:01:03.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 06:01:05.2|Info|RssSyncService|Starting RSS Sync
+2022-10-13 06:01:05.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 06:01:06.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 07:01:08.3|Info|RssSyncService|Starting RSS Sync
+2022-10-13 07:01:08.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 07:01:08.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 08:01:11.1|Info|RssSyncService|Starting RSS Sync
+2022-10-13 08:01:12.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 08:01:12.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 09:01:14.1|Info|RssSyncService|Starting RSS Sync
+2022-10-13 09:01:14.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 09:01:15.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 10:01:16.7|Info|RssSyncService|Starting RSS Sync
+2022-10-13 10:01:17.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 10:01:17.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 11:01:19.5|Info|RssSyncService|Starting RSS Sync
+2022-10-13 11:01:20.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 11:01:20.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 12:01:22.2|Info|RssSyncService|Starting RSS Sync
+2022-10-13 12:01:23.0|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 12:01:23.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 13:01:25.0|Info|RssSyncService|Starting RSS Sync
+2022-10-13 13:01:25.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 13:01:25.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 14:01:27.6|Info|RssSyncService|Starting RSS Sync
+2022-10-13 14:01:28.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 14:01:28.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 15:01:30.5|Info|RssSyncService|Starting RSS Sync
+2022-10-13 15:01:31.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 15:01:31.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 16:01:33.1|Info|RssSyncService|Starting RSS Sync
+2022-10-13 16:01:33.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 16:01:33.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 17:01:35.8|Info|RssSyncService|Starting RSS Sync
+2022-10-13 17:01:36.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 17:01:36.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 18:01:38.4|Info|RssSyncService|Starting RSS Sync
+2022-10-13 18:01:38.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 18:01:39.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 19:01:41.1|Info|RssSyncService|Starting RSS Sync
+2022-10-13 19:01:41.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 19:01:41.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 19:58:55.8|Info|ConsoleApp|Exiting main.
+2022-10-13 19:59:21.3|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2022-10-13 19:59:21.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-13 19:59:22.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-13 19:59:24.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-13 19:59:25.2|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-13 19:59:25.7|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-13 19:59:28.5|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-10-13 20:01:58.9|Info|RssSyncService|Starting RSS Sync
+2022-10-13 20:02:00.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 20:02:01.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 20:33:30.4|Info|BackupService|Starting Backup
+2022-10-13 20:48:31.1|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-13 20:49:01.2|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-13 20:49:01.4|Info|HousekeepingService|Running housecleaning tasks
+2022-10-13 20:49:01.7|Info|Database|Vacuuming Log database
+2022-10-13 20:49:01.7|Info|Database|Log database compressed
+2022-10-13 20:49:01.7|Info|Database|Vacuuming Main database
+2022-10-13 20:49:02.0|Info|Database|Main database compressed
+2022-10-13 20:49:31.9|Info|DiskScanService|Scanning disk for Medieval
+2022-10-13 20:49:31.9|Info|DiskScanService|Completed scanning disk for Medieval
+2022-10-13 20:49:32.0|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-13 20:49:32.0|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-13 20:49:32.0|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-13 20:49:32.0|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-13 20:49:32.0|Info|RefreshMovieService|Updating info for To Leslie
+2022-10-13 20:49:34.4|Info|DiskScanService|Scanning disk for To Leslie
+2022-10-13 20:49:34.4|Info|DiskScanService|Completed scanning disk for To Leslie
+2022-10-13 20:49:34.4|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2022-10-13 20:49:34.4|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2022-10-13 20:49:34.4|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2022-10-13 20:49:34.5|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2022-10-13 21:02:02.7|Info|RssSyncService|Starting RSS Sync
+2022-10-13 21:02:03.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 21:02:03.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 22:02:05.6|Info|RssSyncService|Starting RSS Sync
+2022-10-13 22:02:06.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 22:02:06.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-13 23:02:08.5|Info|RssSyncService|Starting RSS Sync
+2022-10-13 23:02:09.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-13 23:02:09.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 00:02:11.4|Info|RssSyncService|Starting RSS Sync
+2022-10-14 00:02:11.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 00:02:12.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 01:02:14.2|Info|RssSyncService|Starting RSS Sync
+2022-10-14 01:02:14.8|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 01:02:14.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 02:02:16.9|Info|RssSyncService|Starting RSS Sync
+2022-10-14 02:02:17.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 02:02:17.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 03:02:18.8|Info|RssSyncService|Starting RSS Sync
+2022-10-14 03:02:19.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 03:02:19.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 04:02:20.0|Info|RssSyncService|Starting RSS Sync
+2022-10-14 04:02:20.6|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 04:02:20.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 05:02:22.0|Info|RssSyncService|Starting RSS Sync
+2022-10-14 05:02:22.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 05:02:22.7|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 06:02:24.5|Info|RssSyncService|Starting RSS Sync
+2022-10-14 06:02:25.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 06:02:25.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 07:02:26.9|Info|RssSyncService|Starting RSS Sync
+2022-10-14 07:02:27.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 07:02:27.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 08:02:29.7|Info|RssSyncService|Starting RSS Sync
+2022-10-14 08:02:30.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 08:02:30.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 09:02:32.7|Info|RssSyncService|Starting RSS Sync
+2022-10-14 09:02:33.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 09:02:33.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 10:02:35.5|Info|RssSyncService|Starting RSS Sync
+2022-10-14 10:02:36.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 10:02:36.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 11:02:38.1|Info|RssSyncService|Starting RSS Sync
+2022-10-14 11:02:38.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 11:02:39.0|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 12:02:41.0|Info|RssSyncService|Starting RSS Sync
+2022-10-14 12:02:41.5|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 12:02:41.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 13:02:43.6|Info|RssSyncService|Starting RSS Sync
+2022-10-14 13:02:44.1|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 13:02:44.2|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 14:02:45.9|Info|RssSyncService|Starting RSS Sync
+2022-10-14 14:02:46.4|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 14:02:46.6|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 15:02:48.7|Info|RssSyncService|Starting RSS Sync
+2022-10-14 15:02:49.2|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 15:02:49.3|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 16:02:51.6|Info|RssSyncService|Starting RSS Sync
+2022-10-14 16:02:52.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 16:02:52.5|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 17:02:54.4|Info|RssSyncService|Starting RSS Sync
+2022-10-14 17:02:55.3|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-14 17:02:55.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-14 17:04:02.1|Info|ConsoleApp|Exiting main.
+2022-10-14 17:04:34.7|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2022-10-14 17:04:34.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-14 17:04:35.1|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-14 17:04:36.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-14 17:04:37.7|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-14 17:04:38.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-14 17:04:42.7|Info|CommandExecutor|Starting 2 threads for tasks.

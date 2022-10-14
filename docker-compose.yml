@@ -1,3 +1,4 @@
+version: "3"
 # to run: docker-compose up -d
 #
 # Create a .env file in the same folder as this file and change the variables.
@@ -7,54 +8,54 @@
 # VPN_CONFIG=changeme
 # VPN_USERNAME=changeme
 # VPN_PASSWORD=changeme
+services:
+  jackett:
+    container_name: jackett
+    image: linuxserver/jackett:latest
+    restart: unless-stopped
+    ports:
+      - 9117:9117
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT}/library/downloads:/downloads # place where to put .torrent files for manual download
+      - ${ROOT}/nas63/jackett:/config # config files
 
-jackett:
-  container_name: jackett
-  image: linuxserver/jackett:latest
-  restart: unless-stopped
-  ports:
-    - 9117:9117
-  environment:
-    - PUID=${PUID} # default user id, defined in .env
-    - PGID=${PGID} # default group id, defined in .env
-    - TZ=${TZ} # timezone, defined in .env
-  volumes:
-    - /etc/localtime:/etc/localtime:ro
-    - ${ROOT}/library/downloads:/downloads # place where to put .torrent files for manual download
-    - ${ROOT}/nas63/jackett:/config # config files
+  sonarr:
+    container_name: sonarr
+    image: lscr.io/linuxserver/sonarr
+    restart: unless-stopped
+    ports:
+      - 8989:8989
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT}/nas63/sonarr:/config # config files
+      - ${ROOT}/nas63:/scripts
+      - ${ROOT}/library/tv:/tv # tv shows folder
+      - ${ROOT}/library/downloads:/downloads # download folder
 
-
-sonarr:
-  container_name: sonarr
-  image: linuxserver/sonarr:latest
-  restart: unless-stopped
-  ports:
-    - 8989:8989
-  environment:
-    - PUID=${PUID} # default user id, defined in .env
-    - PGID=${PGID} # default group id, defined in .env
-    - TZ=${TZ} # timezone, defined in .env
-  volumes:
-    - /etc/localtime:/etc/localtime:ro
-    - ${ROOT}/nas63/sonarr:/config # config files
-    - ${ROOT}/library/tv:/tv # tv shows folder
-    - ${ROOT}/library/downloads:/downloads # download folder
-
-radarr:
-  container_name: radarr
-  image: linuxserver/radarr:latest
-  restart: unless-stopped
-  ports:
-    - 7878:7878
-  environment:
-    - PUID=${PUID} # default user id, defined in .env
-    - PGID=${PGID} # default group id, defined in .env
-    - TZ=${TZ} # timezone, defined in .env
-  volumes:
-    - /etc/localtime:/etc/localtime:ro
-    - ${ROOT}/nas63/radarr:/config # config files
-    - ${ROOT}/library/movies:/movies # movies folder
-    - ${ROOT}/library/downloads:/downloads # download folder
+  radarr:
+    container_name: radarr
+    image: linuxserver/radarr:latest
+    restart: unless-stopped
+    ports:
+      - 7878:7878
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT}/nas63/radarr:/config # config files
+      - ${ROOT}/library/movies:/movies # movies folder
+      - ${ROOT}/library/downloads:/downloads # download folder
 
 #transmission:
 #  image: lscr.io/linuxserver/transmission
@@ -72,29 +73,47 @@ radarr:
 #    - 51413:51413/udp # Torrent port (UDP)
 #  restart: unless-stopped # This makes sure that the application restarts when it crashes
 
-transmission:
-  image: lscr.io/linuxserver/transmission:latest
-  container_name: transmission
-  environment:
-    - PUID=${PUID}
-    - PGID=${PGID}
-    - TZ=${TZ}
-    #- TRANSMISSION_WEB_HOME=/combustion-release/ #optional
-    #- USER=username #optional
-    #- PASS=password #optional
-    - WHITELIST=*.*.*.* #optional
-    #- PEERPORT=peerport #optional
-    #- HOST_WHITELIST=dnsname list #optional
-  volumes:
-    - ${ROOT}/nas63/transmission/config:/config
-    - ${ROOT}/library/downloads:/downloads # Change this to your download folder
-    
-  ports:
-    - 9091:9091
-    - 51413:51413
-    - 51413:51413/udp
-  restart: unless-stopped
+  transmission:
+    image: lscr.io/linuxserver/transmission:latest
+    container_name: transmission
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      #- TRANSMISSION_WEB_HOME=/combustion-release/ #optional
+      #- USER=username #optional
+      #- PASS=password #optional
+      - WHITELIST=*.*.*.* #optional
+      #- PEERPORT=peerport #optional
+      #- HOST_WHITELIST=dnsname list #optional
+    volumes:
+      - ${ROOT}/nas63/transmission/config:/config
+      - ${ROOT}/library/downloads:/downloads # Change this to your download folder    
+    ports:
+      - 9091:9091
+      - 51413:51413
+      - 51413:51413/udp
+    restart: unless-stopped
 
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp"
+      - "8888:80/tcp"
+    environment:
+      - TZ:${TZ}
+      - WEBPASSWORD:"triMode04!"
+    volumes:
+      - ${ROOT}/nas63/pihole/etc-pihole:/etc/pihole
+      - ${ROOT}/nas63/pihole/etc-dnsmasq:/etc/dnsmasq.d
+      #- './etc-pihole:/etc/pihole'
+      #  - './etc-dnsmasq.d:/etc/dnsmasq.d'
+    cap_add:
+      - NET_ADMIN
+    restart: unless-stopped
 
 #
 # Grafana

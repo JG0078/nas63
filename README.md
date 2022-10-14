@@ -84,3 +84,15 @@ Installing Plex
   535  sudo systemctl status plexmediaserver
   536  history
 
+
+
+Installing PiHole
+grubb@nas63:/plex/nas63$ sudo systemctl disable systemd-resolved.service
+grubb@nas63:/plex/nas63$ sudo systemctl stop systemd-resolved
+grubb@nas63:/plex/nas63$
+grubb@nas63:/plex/nas63$
+grubb@nas63:/plex/nas63$ sudo nano /etc/resolv.conf
+Add NAMESERVER: 8.8.8.8 temporarily
+once completed, update NS to 192.168.1.100 
+
+

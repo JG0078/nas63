@@ -6,6 +6,8 @@ unlinkDup () {
   #  $2 -> Directory that we are searching in
 
   filename1=$(basename "$1")  ##Get the filename for searching in the directory tree
+  season=$(echo $filename1 | grep -oE '[0-9]{1,2}x[0-9]{1,3}'  
+
   duplicate=$(find "$2" -type f -name "$filename1" | wc -l)
   if [ $duplicate == 1 ]; then
     filename2=$(find "$2" -type f -name "$filename1")
@@ -44,7 +46,7 @@ walk_dir () {
             echo ""
           fi
         ;;
-      *.png|*.nfo|*.part|*.rar|*.sfv|*.r0*|*.r1*|*.r2*|*.r3*|*.r4*|*.r5*|*.r6*|*.r7|*.r8|*.r9)
+      *.png|*.nfo|*.part|*.rar|*.sfv|*.r0*|*.r1*|*.r2*|*.r3*|*.r4*|*.r5*|*.r6*|*.r7*|*.r8|*.r9)
       ;;
       *)
         echo "File Extension: ${pathname##*.}"
