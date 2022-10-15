@@ -102,10 +102,10 @@ services:
       - "53:53/tcp"
       - "53:53/udp"
       - "67:67/udp"
-      - "8888:80/tcp"
+      - "7880:80/tcp"
     environment:
       - TZ:${TZ}
-      - WEBPASSWORD:"triMode04!"
+      - WEBPASSWORD:triMode04!
     volumes:
       - ${ROOT}/nas63/pihole/etc-pihole:/etc/pihole
       - ${ROOT}/nas63/pihole/etc-dnsmasq:/etc/dnsmasq.d

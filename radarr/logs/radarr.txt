@@ -5285,3 +5285,1056 @@
 2022-10-14 17:04:37.7|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
 2022-10-14 17:04:38.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
 2022-10-14 17:04:42.7|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-10-14 17:20:19.0|Error|TaskExtensions|Task Error
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in D:\a\1\s\src\NzbDrone.Core\HealthCheck\Checks\SystemTimeCheck.cs:line 30
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<>c.<PerformHealthCheck>b__15_0(IProvideHealthCheck c) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 82
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(IEvent message) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 140
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+
+2022-10-14 18:03:16.2|Info|RssSyncService|Starting RSS Sync
+2022-10-14 18:03:48.0|Error|Torznab|An error occurred while processing indexer feed. http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 522
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498
+   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 286
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+RequestUri: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml; charset=utf-8;ContentLength: 5422;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 186&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 522&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.&lt;&gt;c__DisplayClass12_0.&lt;&lt;RequestWithCookiesAndRetryAsync&gt;b__0&gt;d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499&#xA;--- End of stack trace from previous location ---&#xA;   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)&#xA;   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498&#xA;   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404" />;FeedUrl: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+2022-10-14 18:03:48.0|Info|DownloadDecisionMaker|No results found
+2022-10-14 18:03:48.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-14 19:03:49.2|Info|RssSyncService|Starting RSS Sync
+2022-10-14 19:04:20.8|Error|Torznab|An error occurred while processing indexer feed. http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498
+   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 286
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+RequestUri: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml; charset=utf-8;ContentLength: 5422;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.&lt;&gt;c__DisplayClass12_0.&lt;&lt;RequestWithCookiesAndRetryAsync&gt;b__0&gt;d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499&#xA;--- End of stack trace from previous location ---&#xA;   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)&#xA;   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498&#xA;   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404" />;FeedUrl: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+2022-10-14 19:04:20.9|Info|DownloadDecisionMaker|No results found
+2022-10-14 19:04:20.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-14 20:04:50.9|Info|RssSyncService|Starting RSS Sync
+2022-10-14 20:05:22.5|Error|Torznab|An error occurred while processing indexer feed. http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498
+   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 286
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+RequestUri: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml; charset=utf-8;ContentLength: 5422;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.&lt;&gt;c__DisplayClass12_0.&lt;&lt;RequestWithCookiesAndRetryAsync&gt;b__0&gt;d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499&#xA;--- End of stack trace from previous location ---&#xA;   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)&#xA;   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498&#xA;   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404" />;FeedUrl: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+2022-10-14 20:05:22.5|Info|DownloadDecisionMaker|No results found
+2022-10-14 20:05:22.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-14 20:48:52.1|Info|ImportListSyncService|No auto enabled lists, skipping sync and cleaning
+2022-10-14 20:49:22.1|Info|HousekeepingService|Running housecleaning tasks
+2022-10-14 20:49:22.2|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2022-10-14 20:49:22.5|Info|Database|Vacuuming Log database
+2022-10-14 20:49:22.6|Info|Database|Log database compressed
+2022-10-14 20:49:22.6|Info|Database|Vacuuming Main database
+2022-10-14 20:49:22.7|Info|Database|Main database compressed
+2022-10-14 20:49:57.4|Error|CommandExecutor|Error occurred while executing task RefreshMovie
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (api.radarr.video:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 288
+   at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.GetChangedMovies(DateTime startTime) in D:\a\1\s\src\NzbDrone.Core\MetadataSource\SkyHook\SkyHookProxy.cs:line 67
+   at NzbDrone.Core.Movies.RefreshMovieService.Execute(RefreshMovieCommand message) in D:\a\1\s\src\NzbDrone.Core\Movies\RefreshMovieService.cs:line 200
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 44
+
+
+2022-10-14 20:59:57.8|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 288
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in D:\a\1\s\src\NzbDrone.Core\Update\UpdatePackageProvider.cs:line 53
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in D:\a\1\s\src\NzbDrone.Core\Update\UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in D:\a\1\s\src\NzbDrone.Core\Update\InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in D:\a\1\s\src\NzbDrone.Core\Update\InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 44
+
+
+2022-10-14 21:00:02.8|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in D:\a\1\s\src\NzbDrone.Core\HealthCheck\Checks\SystemTimeCheck.cs:line 30
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 118
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 44
+
+
+2022-10-14 21:05:22.8|Info|RssSyncService|Starting RSS Sync
+2022-10-14 21:05:54.4|Error|Torznab|An error occurred while processing indexer feed. http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498
+   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 286
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+RequestUri: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml; charset=utf-8;ContentLength: 5422;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.&lt;&gt;c__DisplayClass12_0.&lt;&lt;RequestWithCookiesAndRetryAsync&gt;b__0&gt;d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499&#xA;--- End of stack trace from previous location ---&#xA;   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)&#xA;   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498&#xA;   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404" />;FeedUrl: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+2022-10-14 21:05:54.4|Info|DownloadDecisionMaker|No results found
+2022-10-14 21:05:54.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-14 21:14:38.1|Warn|SkyHookProxy|System.Net.Http.HttpRequestException: Resource temporarily unavailable (api.radarr.video:443)
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (api.radarr.video:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 288
+   at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.SearchForNewMovie(String title) in D:\a\1\s\src\NzbDrone.Core\MetadataSource\SkyHook\SkyHookProxy.cs:line 483
+
+
+2022-10-14 21:14:38.1|Error|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+
+[v4.2.4.6635] NzbDrone.Core.MetadataSource.SkyHook.SkyHookException: Search for 'Die hard' failed. Invalid response received from TMDb.
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (api.radarr.video:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 288
+   at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.SearchForNewMovie(String title) in D:\a\1\s\src\NzbDrone.Core\MetadataSource\SkyHook\SkyHookProxy.cs:line 483
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.SearchForNewMovie(String title) in D:\a\1\s\src\NzbDrone.Core\MetadataSource\SkyHook\SkyHookProxy.cs:line 500
+   at lambda_method220(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\BufferingMiddleware.cs:line 27
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\IfModifiedMiddleware.cs:line 40
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\CacheHeaderMiddleware.cs:line 32
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\UrlBaseMiddleware.cs:line 26
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\VersionMiddleware.cs:line 27
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+
+2022-10-14 21:15:03.4|Warn|SkyHookProxy|System.Net.Http.HttpRequestException: Resource temporarily unavailable (api.radarr.video:443)
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (api.radarr.video:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 288
+   at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.SearchForNewMovie(String title) in D:\a\1\s\src\NzbDrone.Core\MetadataSource\SkyHook\SkyHookProxy.cs:line 483
+
+
+2022-10-14 21:15:03.4|Error|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+
+[v4.2.4.6635] NzbDrone.Core.MetadataSource.SkyHook.SkyHookException: Search for 'Red' failed. Invalid response received from TMDb.
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (api.radarr.video:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 288
+   at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.SearchForNewMovie(String title) in D:\a\1\s\src\NzbDrone.Core\MetadataSource\SkyHook\SkyHookProxy.cs:line 483
+   --- End of inner exception stack trace ---
+   at NzbDrone.Core.MetadataSource.SkyHook.SkyHookProxy.SearchForNewMovie(String title) in D:\a\1\s\src\NzbDrone.Core\MetadataSource\SkyHook\SkyHookProxy.cs:line 500
+   at lambda_method220(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\BufferingMiddleware.cs:line 27
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\IfModifiedMiddleware.cs:line 40
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\CacheHeaderMiddleware.cs:line 32
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\UrlBaseMiddleware.cs:line 26
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\VersionMiddleware.cs:line 27
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+
+2022-10-14 21:15:51.1|Warn|Torznab|Unable to connect to indexer
+
+[v4.2.4.6635] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498
+   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 286
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 334
+RequestUri: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml; charset=utf-8;ContentLength: 5422;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.&lt;&gt;c__DisplayClass12_0.&lt;&lt;RequestWithCookiesAndRetryAsync&gt;b__0&gt;d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499&#xA;--- End of stack trace from previous location ---&#xA;   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)&#xA;   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498&#xA;   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404" />
+
+2022-10-14 21:15:51.1|Error|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+
+[v4.2.4.6635] FluentValidation.ValidationException: Validation failed: 
+ -- : Unable to connect to indexer, check the log for more details
+   at Radarr.Api.V3.ProviderControllerBase`3.VerifyValidationResult(ValidationResult validationResult, Boolean includeWarnings) in D:\a\1\s\src\Radarr.Api.V3\ProviderControllerBase.cs:line 200
+   at Radarr.Api.V3.ProviderControllerBase`3.Test(TProviderDefinition definition, Boolean includeWarnings) in D:\a\1\s\src\Radarr.Api.V3\ProviderControllerBase.cs:line 191
+   at Radarr.Api.V3.ProviderControllerBase`3.Test(TProviderResource providerResource) in D:\a\1\s\src\Radarr.Api.V3\ProviderControllerBase.cs:line 140
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\BufferingMiddleware.cs:line 28
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\IfModifiedMiddleware.cs:line 41
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\CacheHeaderMiddleware.cs:line 33
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\UrlBaseMiddleware.cs:line 27
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\VersionMiddleware.cs:line 28
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+
+2022-10-14 21:15:51.2|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer, check the log for more details
+2022-10-14 21:18:03.9|Warn|Torznab|Unable to connect to indexer
+
+[v4.2.4.6635] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498
+   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 286
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 334
+RequestUri: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml; charset=utf-8;ContentLength: 5422;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.&lt;&gt;c__DisplayClass12_0.&lt;&lt;RequestWithCookiesAndRetryAsync&gt;b__0&gt;d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499&#xA;--- End of stack trace from previous location ---&#xA;   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)&#xA;   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498&#xA;   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404" />
+
+2022-10-14 21:18:03.9|Error|Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware|An unhandled exception has occurred while executing the request.
+
+[v4.2.4.6635] FluentValidation.ValidationException: Validation failed: 
+ -- : Unable to connect to indexer, check the log for more details
+   at Radarr.Api.V3.ProviderControllerBase`3.VerifyValidationResult(ValidationResult validationResult, Boolean includeWarnings) in D:\a\1\s\src\Radarr.Api.V3\ProviderControllerBase.cs:line 200
+   at Radarr.Api.V3.ProviderControllerBase`3.Test(TProviderDefinition definition, Boolean includeWarnings) in D:\a\1\s\src\Radarr.Api.V3\ProviderControllerBase.cs:line 191
+   at Radarr.Api.V3.ProviderControllerBase`3.Test(TProviderResource providerResource) in D:\a\1\s\src\Radarr.Api.V3\ProviderControllerBase.cs:line 140
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Radarr.Http.Middleware.BufferingMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\BufferingMiddleware.cs:line 28
+   at Radarr.Http.Middleware.IfModifiedMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\IfModifiedMiddleware.cs:line 41
+   at Radarr.Http.Middleware.CacheHeaderMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\CacheHeaderMiddleware.cs:line 33
+   at Radarr.Http.Middleware.UrlBaseMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\UrlBaseMiddleware.cs:line 27
+   at Radarr.Http.Middleware.VersionMiddleware.InvokeAsync(HttpContext context) in D:\a\1\s\src\Radarr.Http\Middleware\VersionMiddleware.cs:line 28
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+
+
+2022-10-14 21:18:03.9|Warn|RadarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer, check the log for more details
+2022-10-14 22:05:55.6|Info|RssSyncService|Starting RSS Sync
+2022-10-14 22:06:27.2|Error|Torznab|An error occurred while processing indexer feed. http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498
+   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 286
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+RequestUri: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml; charset=utf-8;ContentLength: 5422;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.&lt;&gt;c__DisplayClass12_0.&lt;&lt;RequestWithCookiesAndRetryAsync&gt;b__0&gt;d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499&#xA;--- End of stack trace from previous location ---&#xA;   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)&#xA;   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498&#xA;   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404" />;FeedUrl: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+2022-10-14 22:06:27.3|Info|DownloadDecisionMaker|No results found
+2022-10-14 22:06:27.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-14 23:06:29.2|Info|RssSyncService|Starting RSS Sync
+2022-10-14 23:06:29.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-14 23:06:29.2|Info|DownloadDecisionMaker|No results found
+2022-10-14 23:06:29.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 00:06:31.8|Info|RssSyncService|Starting RSS Sync
+2022-10-15 00:06:31.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-15 00:06:31.8|Info|DownloadDecisionMaker|No results found
+2022-10-15 00:06:31.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 01:06:34.1|Info|RssSyncService|Starting RSS Sync
+2022-10-15 01:07:05.6|Error|Torznab|An error occurred while processing indexer feed. http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498
+   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 286
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+RequestUri: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml; charset=utf-8;ContentLength: 5422;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.&lt;&gt;c__DisplayClass12_0.&lt;&lt;RequestWithCookiesAndRetryAsync&gt;b__0&gt;d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499&#xA;--- End of stack trace from previous location ---&#xA;   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)&#xA;   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 498&#xA;   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 310&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 322&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 692&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 404" />;FeedUrl: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+2022-10-15 01:07:05.7|Info|DownloadDecisionMaker|No results found
+2022-10-15 01:07:05.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 02:07:35.6|Info|RssSyncService|Starting RSS Sync
+2022-10-15 02:07:35.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-15 02:07:35.6|Info|DownloadDecisionMaker|No results found
+2022-10-15 02:07:35.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 03:00:11.8|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 288
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in D:\a\1\s\src\NzbDrone.Core\Update\UpdatePackageProvider.cs:line 53
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in D:\a\1\s\src\NzbDrone.Core\Update\UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in D:\a\1\s\src\NzbDrone.Core\Update\InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in D:\a\1\s\src\NzbDrone.Core\Update\InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 44
+
+
+2022-10-15 03:00:16.8|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in D:\a\1\s\src\NzbDrone.Core\HealthCheck\Checks\SystemTimeCheck.cs:line 30
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 118
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 44
+
+
+2022-10-15 03:07:37.0|Info|RssSyncService|Starting RSS Sync
+2022-10-15 03:07:37.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-15 03:07:37.1|Info|DownloadDecisionMaker|No results found
+2022-10-15 03:07:37.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 04:07:38.3|Info|RssSyncService|Starting RSS Sync
+2022-10-15 04:07:38.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-15 04:07:38.3|Info|DownloadDecisionMaker|No results found
+2022-10-15 04:07:38.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 05:07:39.4|Info|RssSyncService|Starting RSS Sync
+2022-10-15 05:07:39.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-15 05:07:39.4|Info|DownloadDecisionMaker|No results found
+2022-10-15 05:07:39.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 06:07:40.6|Info|RssSyncService|Starting RSS Sync
+2022-10-15 06:07:40.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-15 06:07:40.6|Info|DownloadDecisionMaker|No results found
+2022-10-15 06:07:40.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 07:07:42.1|Info|RssSyncService|Starting RSS Sync
+2022-10-15 07:08:13.7|Error|Torznab|An error occurred while processing indexer feed. http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+[v4.2.4.6635] NzbDrone.Core.Indexers.Torznab.TorznabException: Torznab error detected: Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable
+ ---> System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179
+   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526
+   at Jackett.Common.Indexers.BaseWebIndexer.<>c__DisplayClass12_0.<<RequestWithCookiesAndRetryAsync>b__0>d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499
+--- End of stack trace from previous location ---
+   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)
+   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)
+   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 501
+   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324
+   --- End of inner exception stack trace ---
+   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324
+   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 695
+   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 440
+   at NzbDrone.Core.Indexers.Torznab.TorznabRssParser.PreProcess(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\Torznab\TorznabRssParser.cs:line 48
+   at NzbDrone.Core.Indexers.RssParser.ParseResponse(IndexerResponse indexerResponse) in D:\a\1\s\src\NzbDrone.Core\Indexers\RssParser.cs:line 55
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 286
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, Boolean isRecent) in D:\a\1\s\src\NzbDrone.Core\Indexers\HttpIndexerBase.cs:line 123
+RequestUri: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100;StatusCode: OK;ContentType: application/xml; charset=utf-8;ContentLength: 5422;ContentSample: <?xml version="1.0" encoding="UTF-8"?>
+<error code="900" description="Jackett.Common.IndexerException: Exception (iptorrents): Resource temporarily unavailable&#xA; ---&gt; System.Net.Http.HttpRequestException: Resource temporarily unavailable (iptorrents.com:443)&#xA; ---&gt; System.Net.Sockets.SocketException (11): Resource temporarily unavailable&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)&#xA;   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)&#xA;   at System.Net.Sockets.Socket.&lt;ConnectAsync&gt;g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   --- End of inner exception stack trace ---&#xA;   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)&#xA;   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)&#xA;   at FlareSolverrSharp.ClearanceHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)&#xA;   at System.Net.Http.HttpClient.&lt;SendAsync&gt;g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)&#xA;   at Jackett.Common.Utils.Clients.HttpWebClient2.Run(WebRequest webRequest) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/HttpWebClient2.cs:line 179&#xA;   at Jackett.Common.Utils.Clients.WebClient.GetResultAsync(WebRequest request) in /home/(removed)/work/1/s/src/Jackett.Common/Utils/Clients/WebClient.cs:line 221&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 526&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.&lt;&gt;c__DisplayClass12_0.&lt;&lt;RequestWithCookiesAndRetryAsync&gt;b__0&gt;d.MoveNext() in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 499&#xA;--- End of stack trace from previous location ---&#xA;   at Polly.Retry.AsyncRetryEngine.ImplementationAsync[TResult](Func`3 action, Context context, CancellationToken cancellationToken, ExceptionPredicates shouldRetryExceptionPredicates, ResultPredicates`1 shouldRetryResultPredicates, Func`5 onRetryAsync, Int32 permittedRetryCount, IEnumerable`1 sleepDurationsEnumerable, Func`4 sleepDurationProvider, Boolean continueOnCapturedContext)&#xA;   at Polly.AsyncPolicy`1.ExecuteAsync(Func`3 action, Context context, CancellationToken cancellationToken, Boolean continueOnCapturedContext)&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.RequestWithCookiesAndRetryAsync(String url, String cookieOverride, RequestType method, String referer, IEnumerable`1 data, Dictionary`2 headers, String rawbody, Nullable`1 emulateBrowser) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 501&#xA;   at Jackett.Common.Indexers.IPTorrents.PerformQuery(TorznabQuery query) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/IPTorrents.cs:line 273&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324&#xA;   --- End of inner exception stack trace ---&#xA;   at Jackett.Common.Indexers.BaseIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 324&#xA;   at Jackett.Common.Indexers.BaseWebIndexer.ResultsForQuery(TorznabQuery query, Boolean isMetaIndexer) in /home/(removed)/work/1/s/src/Jackett.Common/Indexers/BaseIndexer.cs:line 695&#xA;   at Jackett.Server.Controllers.ResultsController.Torznab(TorznabRequest request) in /home/(removed)/work/1/s/src/Jackett.Server/Controllers/ResultsController.cs:line 440" />;FeedUrl: http://192.168.1.100:9117/api/v2.0/indexers/iptorrents/results/torznab/api?t=movie&cat=2000,2010,2020,2030,2040,2045,2050,2060&extended=1&apikey=(removed)&offset=0&limit=100
+
+2022-10-15 07:08:13.7|Info|DownloadDecisionMaker|No results found
+2022-10-15 07:08:13.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 08:08:43.6|Info|RssSyncService|Starting RSS Sync
+2022-10-15 08:08:43.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-15 08:08:43.6|Info|DownloadDecisionMaker|No results found
+2022-10-15 08:08:43.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 09:00:21.6|Error|CommandExecutor|Error occurred while executing task ApplicationCheckUpdate
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 282
+   at NzbDrone.Common.Http.HttpClient.Get[T](HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 288
+   at NzbDrone.Core.Update.UpdatePackageProvider.GetLatestUpdate(String branch, Version currentVersion) in D:\a\1\s\src\NzbDrone.Core\Update\UpdatePackageProvider.cs:line 53
+   at NzbDrone.Core.Update.CheckUpdateService.AvailableUpdate() in D:\a\1\s\src\NzbDrone.Core\Update\UpdateCheckService.cs:line 25
+   at NzbDrone.Core.Update.InstallUpdateService.GetUpdatePackage(CommandTrigger updateTrigger) in D:\a\1\s\src\NzbDrone.Core\Update\InstallUpdateService.cs:line 232
+   at NzbDrone.Core.Update.InstallUpdateService.Execute(ApplicationCheckUpdateCommand message) in D:\a\1\s\src\NzbDrone.Core\Update\InstallUpdateService.cs:line 269
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 44
+
+
+2022-10-15 09:00:51.7|Error|CommandExecutor|Error occurred while executing task CheckHealth
+
+[v4.2.4.6635] System.Net.Http.HttpRequestException: Resource temporarily unavailable (radarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 296
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 272
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellation(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageHandlerStage.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.SocketsHttpHandler.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpMessageInvoker.Send(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.Send(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponse(HttpRequest request, CookieContainer cookies) in D:\a\1\s\src\NzbDrone.Common\Http\Dispatchers\ManagedHttpDispatcher.cs:line 101
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequest(HttpRequest request, CookieContainer cookieContainer) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 124
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in D:\a\1\s\src\NzbDrone.Common\Http\HttpClient.cs:line 59
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in D:\a\1\s\src\NzbDrone.Core\HealthCheck\Checks\SystemTimeCheck.cs:line 30
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.Execute(CheckHealthCommand message) in D:\a\1\s\src\NzbDrone.Core\HealthCheck\HealthCheckService.cs:line 118
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in D:\a\1\s\src\NzbDrone.Core\Messaging\Commands\CommandExecutor.cs:line 44
+
+
+2022-10-15 09:08:47.0|Info|RssSyncService|Starting RSS Sync
+2022-10-15 09:08:47.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-15 09:08:47.1|Info|DownloadDecisionMaker|No results found
+2022-10-15 09:08:47.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 10:08:50.1|Info|RssSyncService|Starting RSS Sync
+2022-10-15 10:08:50.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2022-10-15 10:08:50.1|Info|DownloadDecisionMaker|No results found
+2022-10-15 10:08:50.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2022-10-15 10:40:50.9|Info|ConsoleApp|Exiting main.
+2022-10-15 10:41:15.8|Info|Bootstrap|Starting Radarr - /app/radarr/bin/Radarr - Version 4.2.4.6635
+2022-10-15 10:41:16.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-15 10:41:16.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-15 10:41:17.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-15 10:41:17.9|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-15 10:41:18.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-15 10:41:21.1|Info|CommandExecutor|Starting 2 threads for tasks.
+2022-10-15 10:42:49.2|Warn|Torznab|IPTorrents does not support the following categories: 2020. You should probably remove them.
+2022-10-15 10:42:50.7|Warn|Torznab|IPTorrents does not support the following categories: 2020. You should probably remove them.
+2022-10-15 10:43:38.3|Info|AddMovieService|Adding Movie [Die Hard (1988)][tt0095016, 562] Path: [/movies/Die Hard.1988Die.HardDie.HardDie.Hard]
+2022-10-15 10:43:38.5|Info|RefreshMovieService|Updating info for Die Hard
+2022-10-15 10:43:38.7|Warn|MediaCoverMapper|File /config/MediaCover/3/poster.jpg not found
+2022-10-15 10:43:46.0|Info|AddMovieService|Adding Movie [Die Hard 2 (1990)][tt0099423, 1573] Path: [/movies/Die Hard 2.1990Die.Hard.2Die.Hard.2Die.Hard.2]
+2022-10-15 10:43:46.2|Info|RefreshMovieService|Updating info for Die Hard 2
+2022-10-15 10:43:46.2|Warn|MediaCoverMapper|File /config/MediaCover/4/poster.jpg not found
+2022-10-15 10:43:46.4|Info|AddMovieCollectionService|Adding Collection NzbDrone.Core.Movies.Collections.MovieCollection
+2022-10-15 10:43:46.5|Info|RefreshCollectionService|Updating info for Die Hard Collection
+2022-10-15 10:43:46.9|Info|MediaCoverService|Downloading Poster for [Die Hard (1988)][tt0095016, 562] https://image.tmdb.org/t/p/original/yFihWxQcmqcaBR31QM6Y8gT6aYV.jpg
+2022-10-15 10:43:46.9|Info|DiskScanService|Scanning disk for Die Hard
+2022-10-15 10:43:46.9|Info|DiskScanService|Completed scanning disk for Die Hard
+2022-10-15 10:43:46.9|Info|MovieScannedHandler|[Die Hard] was recently added, performing post-add actions
+2022-10-15 10:43:47.0|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2022-10-15 10:43:50.0|Info|ReleaseSearchService|Searching indexers for [Die Hard]. 1 active indexers
+2022-10-15 10:43:50.0|Info|MediaCoverService|Downloading Poster for [Die Hard 2 (1990)][tt0099423, 1573] https://image.tmdb.org/t/p/original/lDFO7D4MdbhjOwaPwe18QG69Rt0.jpg
+2022-10-15 10:43:50.0|Info|DiskScanService|Scanning disk for Die Hard 2
+2022-10-15 10:43:50.0|Info|DiskScanService|Completed scanning disk for Die Hard 2
+2022-10-15 10:43:50.0|Info|MovieScannedHandler|[Die Hard 2] was recently added, performing post-add actions
+2022-10-15 10:43:50.1|Info|MetadataService|Movie folder does not exist, skipping metadata creation
+2022-10-15 10:43:51.0|Info|DownloadDecisionMaker|Processing 40 releases
+2022-10-15 10:43:51.8|Info|MediaCoverService|Downloading Fanart for [Die Hard (1988)][tt0095016, 562] https://image.tmdb.org/t/p/original/rahJyvdMruvqUmSLWRQKYS57mx8.jpg
+2022-10-15 10:43:56.1|Info|MediaCoverService|Downloading Fanart for [Die Hard 2 (1990)][tt0099423, 1573] https://image.tmdb.org/t/p/original/61eQdVe9Fs587Hlu1SFDMidjIRu.jpg
+2022-10-15 10:44:00.8|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2022-10-15 10:44:02.3|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2022-10-15 10:44:15.1|Info|DownloadService|Report sent to Transmission. Die Hard 1988 1080p WEB-DL H264 AC3-eSc
+2022-10-15 10:44:16.0|Info|ReleaseSearchService|Searching indexers for [Die Hard 2]. 1 active indexers
+2022-10-15 10:44:17.2|Info|DownloadDecisionMaker|Processing 18 releases
+2022-10-15 10:44:27.3|Info|DownloadService|Report sent to Transmission. Die Hard 2 Die Harder 1990 1080p WEB-DL H264 AC3-eSc
