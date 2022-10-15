@@ -1131,3 +1131,34 @@
 2022-10-15 10:52:21.0|Warn|Torznab|Indexer IPTorrents rss sync didn't cover the period between 10/14/2022 8:39:06 PM and 10/15/2022 10:42:25 AM UTC. Search may be required.
 2022-10-15 10:52:21.4|Info|DownloadDecisionMaker|Processing 50 releases
 2022-10-15 10:52:21.8|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-15 11:07:51.5|Info|RssSyncService|Starting RSS Sync
+2022-10-15 11:07:51.7|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-15 11:07:51.9|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-15 11:22:38.3|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2022-10-15 11:22:39.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-15 11:22:39.4|Info|Router|Application mode: Interactive
+2022-10-15 11:22:39.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-15 11:22:40.0|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-15 11:22:40.5|Info|OwinHostController|Listening on the following URLs:
+2022-10-15 11:22:40.5|Info|OwinHostController|  http://*:8989/
+2022-10-15 11:22:41.6|Info|SonarrBootstrapper|Starting Web Server
+2022-10-15 11:23:13.2|Info|RssSyncService|Starting RSS Sync
+2022-10-15 11:23:15.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-15 11:23:16.1|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0
+2022-10-15 11:24:08.8|Error|postSonar.py|Traceback (most recent call last):
+2022-10-15 11:24:08.9|Error|postSonar.py|  File "/scripts/postSonar.py", line 5, in <module>
+2022-10-15 11:24:08.9|Error|postSonar.py|    import requests, json
+2022-10-15 11:24:08.9|Error|postSonar.py|ModuleNotFoundError: No module named 'requests'
+2022-10-15 11:24:08.9|Warn|SonarrErrorPipeline|Invalid request Validation failed: 
+ -- : Script exited with code: 1
+2022-10-15 11:39:37.8|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr.exe - Version 3.0.9.1549
+2022-10-15 11:39:38.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2022-10-15 11:39:38.4|Info|Router|Application mode: Interactive
+2022-10-15 11:39:38.6|Info|MigrationLogger|*** Checking database for required migrations data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-15 11:39:38.8|Info|MigrationLogger|*** Checking database for required migrations data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2022-10-15 11:39:39.1|Info|OwinHostController|Listening on the following URLs:
+2022-10-15 11:39:39.1|Info|OwinHostController|  http://*:8989/
+2022-10-15 11:39:40.0|Info|SonarrBootstrapper|Starting Web Server
+2022-10-15 11:40:11.5|Info|RssSyncService|Starting RSS Sync
+2022-10-15 11:40:11.9|Info|DownloadDecisionMaker|Processing 50 releases
+2022-10-15 11:40:12.4|Info|RssSyncService|RSS Sync Completed. Reports found: 50, Reports grabbed: 0

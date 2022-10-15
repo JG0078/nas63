@@ -31,6 +31,21 @@ services:
       - 51413:51413/udp
     restart: unless-stopped
 
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    environment:
+      - PUID=${PUID}
+      - PGID=$PGID}
+      - VERSION=docker
+      #- PLEX_CLAIM= #optional
+    volumes:
+      - ${ROOT}/nas63/plex:/config
+      - ${ROOT}/nas63/library/tv:/tv
+      - ${ROOT}/nas63/library/movies:/movies
+      - ${ROOT}/nas63/library/kidsmovies:/kidsmovies
+    restart: unless-stopped
+
   jackett:
     container_name: jackett
     image: linuxserver/jackett:latest
@@ -49,7 +64,7 @@ services:
   sonarr:
     container_name: sonarr
     #image: lscr.io/linuxserver/sonarr
-    image: mdhiggins/sonarr-sma  # Testing alternate image with a python library built into it
+    image: mdhiggins/sonarr-sma:latest  # Testing alternate image with a python library built into it
     restart: unless-stopped
     ports:
       - 8989:8989
@@ -67,7 +82,8 @@ services:
 
   radarr:
     container_name: radarr
-    image: linuxserver/radarr:latest
+    #image: linuxserver/radarr:latest
+    image: mdhiggins/radarr-sma:latest  # Testing alternate image with a python library built into it
     restart: unless-stopped
     ports:
       - 7878:7878
@@ -77,6 +93,7 @@ services:
       - TZ=${TZ} # timezone, defined in .env
     volumes:
       - /etc/localtime:/etc/localtime:ro
+      - ${ROOT}/nas63/radarr/sma:/usr/local/sma/config   # Alternate Image for SMA Docker config files
       - ${ROOT}/nas63/radarr:/config # config files
       - ${ROOT}/library/movies:/movies # movies folder
       - ${ROOT}/library/downloads:/downloads # download folder
