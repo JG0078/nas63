@@ -48,7 +48,8 @@ services:
 
   sonarr:
     container_name: sonarr
-    image: lscr.io/linuxserver/sonarr
+    #image: lscr.io/linuxserver/sonarr
+    image: mdhiggins/sonarr-sma  # Testing alternate image with a python library built into it
     restart: unless-stopped
     ports:
       - 8989:8989
@@ -59,6 +60,7 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ${ROOT}/nas63/sonarr:/config # config files
+      - ${ROOT}/nas63/sonarr/sma:/usr/local/sma/config # Alternate Image for SMA Docker config files
       - ${ROOT}/nas63:/scripts
       - ${ROOT}/library/tv:/tv # tv shows folder
       - ${ROOT}/library/downloads:/downloads # download folder
